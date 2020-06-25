@@ -1,0 +1,505 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,LookupTranslator,109,0,14,0,25,0,9,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,UnicodeEscaper,135,0,18,0,28,0,17,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,OctalUnescaper,116,0,24,0,17,0,16,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,NumericEntityEscaper,76,0,10,0,20,0,12,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,NumericEntityUnescaper.OPTION,34,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,CodePointTranslator,18,0,2,0,4,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,AggregateTranslator,37,0,4,0,8,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,EntityArrays,3450,0,2,0,283,0,14,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,JavaUnicodeEscaper,49,0,0,0,8,0,6,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,UnicodeUnescaper,117,0,16,0,17,0,10,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,NumericEntityUnescaper,205,0,48,0,42,0,27,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,CharSequenceTranslator,111,0,12,0,29,0,11,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text.translate,UnicodeUnpairedSurrogateRemover,13,0,4,0,4,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,AnnotationUtils.new ToStringStyle() {...},83,0,8,0,24,0,7,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,AnnotationUtils,503,0,92,0,112,0,57,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,Conversion,2801,0,460,0,563,0,304,0,44,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,RandomUtils,166,0,26,0,31,0,20,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,CharSetUtils,226,0,48,0,53,0,32,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,ObjectUtils.Null,2,3,0,0,1,2,1,1,1,1
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,ClassUtils.new Iterable() {...},18,0,0,0,4,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,NotImplementedException,41,0,0,0,16,0,7,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,SystemUtils,63,315,20,20,14,90,25,10,6,9
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,BitField,150,0,14,0,27,0,25,0,18,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,StringUtils,5785,11,1279,2,1439,2,836,2,195,2
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,CharSequenceUtils,184,0,38,0,48,0,27,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,CharRange.CharacterIterator,130,0,18,0,36,0,14,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,StringEscapeUtils.CsvUnescaper,93,0,8,0,15,0,7,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,SerializationUtils,164,0,14,0,51,0,14,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,CharSet,300,0,34,0,59,0,26,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,Range,440,0,78,0,95,0,63,0,24,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,ObjectUtils,608,11,86,2,147,2,77,3,34,2
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,StringEscapeUtils,1091,0,0,0,146,0,18,0,18,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,EnumUtils,366,0,26,0,64,0,26,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,LocaleUtils.SyncAvoid,19,0,0,0,5,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,BooleanUtils,789,0,250,0,202,0,167,0,40,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,ClassUtils.new Iterable() {...},21,0,0,0,5,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,ClassUtils.Interfaces,24,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,ArrayUtils,5291,0,1104,0,1306,0,786,0,234,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,SerializationUtils.ClassLoaderAwareObjectInputStream,85,0,2,0,23,0,4,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,CharRange,238,0,48,0,44,0,38,0,14,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,CharEncoding,13,0,2,0,6,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,SerializationException,16,0,0,0,8,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,RandomStringUtils,280,0,56,0,66,0,41,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,LocaleUtils,486,0,86,0,92,0,54,0,10,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,JavaVersion,26,169,10,10,11,34,12,4,2,4
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,Validate,787,0,118,0,140,0,106,0,47,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,ClassUtils,985,249,216,18,250,54,151,8,37,5
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,StringEscapeUtils.CsvEscaper,69,0,4,0,13,0,5,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,ClassPathUtils,136,0,0,0,22,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,CharUtils,279,0,62,0,58,0,55,0,24,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3,Range.ComparableComparator,19,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,InheritanceUtils,42,0,10,0,12,0,7,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,TypeUtils.new Typed() {...},9,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,TypeUtils,2136,152,379,21,457,37,242,12,45,9
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,TypeUtils.WildcardTypeImpl,48,19,6,0,9,5,8,2,5,2
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,TypeUtils.ParameterizedTypeImpl,71,0,6,0,17,0,10,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,MemberUtils,225,0,46,0,45,0,32,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,TypeLiteral,81,0,4,0,16,0,8,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,TypeUtils.GenericArrayTypeImpl,37,0,6,0,9,0,8,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,FieldUtils,684,0,76,0,135,0,71,0,33,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,MethodUtils,458,0,50,0,125,0,40,0,15,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,ConstructorUtils,194,0,22,0,53,0,20,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.reflect,TypeUtils.WildcardTypeBuilder,5,14,0,0,2,3,1,2,1,2
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.event,EventUtils,106,0,0,0,17,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.event,EventListenerSupport.ProxyInvocationHandler,26,0,2,0,4,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.event,EventListenerSupport,185,0,2,0,44,0,15,0,14,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.event,EventUtils.EventBindingInvocationHandler,60,0,8,0,11,0,7,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.math,IEEE754rUtils,223,0,40,0,57,0,33,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.math,Fraction,1306,0,196,0,293,0,133,0,35,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.math,NumberUtils,1544,0,358,0,397,0,229,0,49,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,ConstantInitializer,57,0,6,0,14,0,9,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,BackgroundInitializer,106,0,10,0,35,0,17,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,TimedSemaphore.new Runnable() {...},10,0,0,0,4,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,ConcurrentException,14,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,BackgroundInitializer.InitializationTask,21,0,2,0,6,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,ConcurrentUtils,157,0,34,0,43,0,29,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,TimedSemaphore,203,0,24,0,58,0,28,0,16,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,MultiBackgroundInitializer,159,0,14,0,37,0,12,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,AtomicInitializer,29,0,4,0,8,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,ConcurrentRuntimeException,14,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,BasicThreadFactory,107,0,10,0,30,0,14,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,MultiBackgroundInitializer.MultiBackgroundInitializerResults,74,0,2,0,19,0,9,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,BasicThreadFactory.Builder,77,0,6,0,29,0,11,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,CallableBackgroundInitializer,31,0,2,0,12,0,5,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,LazyInitializer,28,0,4,0,8,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,AtomicSafeInitializer,33,0,4,0,8,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.concurrent,ConcurrentUtils.ConstantFuture,18,0,0,0,8,0,6,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.tuple,Triple,134,0,16,0,19,0,15,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.tuple,ImmutablePair,25,0,0,0,8,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.tuple,MutablePair,40,0,0,0,16,0,8,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.tuple,Pair,101,8,11,1,14,3,13,2,7,2
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.tuple,ImmutableTriple,28,0,0,0,9,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.tuple,MutableTriple,43,0,0,0,17,0,9,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.exception,ExceptionUtils,612,0,86,0,153,0,69,0,26,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.exception,ContextedException,97,0,2,0,28,0,15,0,14,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.exception,DefaultExceptionContext,227,0,24,0,49,0,20,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.exception,ContextedRuntimeException,97,0,2,0,28,0,15,0,14,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.exception,CloneFailedException,13,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.mutable,MutableFloat,138,0,4,0,41,0,26,0,24,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.mutable,MutableBoolean,98,0,12,0,28,0,22,0,16,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.mutable,MutableDouble,146,0,4,0,42,0,26,0,24,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.mutable,MutableInt,138,0,8,0,40,0,26,0,22,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.mutable,MutableObject,59,0,10,0,18,0,12,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.mutable,MutableShort,147,0,8,0,41,0,27,0,23,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.mutable,MutableLong,147,0,8,0,40,0,26,0,22,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.mutable,MutableByte,147,0,8,0,41,0,27,0,23,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,ToStringStyle.DefaultToStringStyle,2,3,0,0,1,2,1,1,1,1
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},0,21,0,0,0,4,0,3,0,3
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,ToStringStyle.MultiLineToStringStyle,2,29,0,0,1,6,1,1,1,1
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,IDKey,37,0,6,0,11,0,6,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,CompareToBuilder,1039,0,240,0,258,0,150,0,30,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffResult,0,127,0,12,0,32,0,13,0,7
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},19,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,StandardToStringStyle,143,0,0,0,62,0,41,0,41,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,ToStringStyle,1288,436,171,47,367,144,184,38,81,32
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,ToStringBuilder,513,76,9,3,111,22,61,9,55,9
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,ReflectionToStringBuilder,363,0,40,0,84,0,46,0,26,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,Diff,28,24,0,0,3,7,3,2,3,2
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,ToStringStyle.NoFieldNameToStringStyle,2,6,0,0,1,3,1,1,1,1
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,ToStringStyle.ShortPrefixToStringStyle,2,9,0,0,1,4,1,1,1,1
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder,603,66,124,8,142,15,82,4,17,3
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,ToStringStyle.SimpleToStringStyle,2,18,0,0,1,7,1,1,1,1
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,HashCodeBuilder,770,0,94,0,160,0,83,0,36,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,RecursiveToStringStyle,47,0,6,0,14,0,7,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,EqualsBuilder,1028,0,234,0,265,0,152,0,35,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},21,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.builder,DiffBuilder.new Diff() {...},19,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,WordUtils,435,0,76,0,115,0,51,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrBuilder.StrBuilderWriter,43,0,0,0,15,0,8,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,FormattableUtils,125,0,16,0,17,0,14,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrMatcher.CharSetMatcher,22,0,2,0,5,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrSubstitutor,998,0,104,0,272,0,106,0,54,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrMatcher.TrimMatcher,12,0,2,0,3,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrBuilder,3226,0,486,0,697,0,388,0,145,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrBuilder.StrBuilderTokenizer,35,0,4,0,10,0,5,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,ExtendedMessageFormat,778,0,111,0,191,0,79,0,21,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrMatcher.CharMatcher,16,0,2,0,4,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrMatcher,135,0,12,0,35,0,22,0,16,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrLookup.MapStrLookup,23,0,4,0,9,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrBuilder.StrBuilderReader,148,0,24,0,31,0,21,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrLookup,35,0,0,0,14,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrMatcher.StringMatcher,40,0,6,0,10,0,5,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrTokenizer,971,0,92,0,251,0,111,0,65,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,StrMatcher.NoMatcher,5,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.text,CompositeFormat,34,0,0,0,9,0,6,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.Strategy,3,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.UnpaddedMonthField,49,0,2,0,12,0,6,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,StopWatch.SplitState,24,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,DurationFormatUtils,883,0,133,0,232,0,82,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateFormat,272,0,2,0,46,0,39,0,38,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TwelveHourField,34,0,2,0,11,0,5,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TwoDigitNumberField,44,0,2,0,12,0,5,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TwoDigitMonthField,38,0,0,0,9,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,DateUtils.DateIterator,44,0,2,0,11,0,5,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.UnpaddedNumberField,55,0,4,0,14,0,6,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateFormat.new FormatCache() {...},10,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.NumberStrategy,39,0,2,0,12,0,6,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FormatCache.MultipartKey,50,0,6,0,11,0,6,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.new FastDateParser.NumberStrategy() {...},19,0,2,0,7,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,DurationFormatUtils.Token,117,0,16,0,31,0,17,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,StopWatch.State,44,0,0,0,5,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.CopyQuotedStrategy,31,0,2,0,9,0,4,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TextField,43,0,4,0,12,0,5,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TimeZoneNameRule,63,0,4,0,14,0,5,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.new FastDateParser.NumberStrategy() {...},8,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TwoDigitYearField,38,0,0,0,9,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,StopWatch,226,0,30,0,60,0,33,0,18,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.PaddedNumberField,98,0,12,0,24,0,10,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,DateUtils,1452,0,218,0,328,0,176,0,60,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.TimeZoneStrategy,203,0,24,0,36,0,15,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,DateFormatUtils,155,0,0,0,39,0,18,0,18,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.CharacterLiteral,14,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TwentyFourHourField,34,0,2,0,11,0,5,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FormatCache,199,0,20,0,44,0,19,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.TextStrategy,102,0,6,0,19,0,6,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TimeZoneNumberRule,97,0,4,0,21,0,6,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter,740,0,102,0,178,0,86,0,25,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser,751,0,83,0,164,0,75,0,24,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.StringLiteral,16,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDatePrinter.TimeZoneDisplayKey,69,0,12,0,18,0,9,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.new FastDateParser.NumberStrategy() {...},8,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/main/java,org.apache.commons.lang3.time,FastDateParser.new FastDateParser.NumberStrategy() {...},8,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,CharEncodingTest,128,0,6,0,42,0,12,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,SystemUtilsTest,904,0,34,0,287,0,29,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,RangeTest.new Comparable() {...},8,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Object() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringUtilsEqualsIndexOfTest.CustomCharSequence,48,0,4,0,12,0,9,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,AnnotationUtilsTest.Stooge,54,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,JavaVersionTest,90,0,0,0,21,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,TooMany,654,0,0,0,4,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,AnnotationUtilsTest.new InvocationHandler() {...},59,0,14,0,9,0,9,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringUtilsEqualsIndexOfTest,3848,0,6,0,654,0,54,0,51,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringUtilsIsTest,335,0,0,0,117,0,9,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ObjectUtilsTest.UncloneableString,4,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,CharSequenceUtilsTest,103,0,0,0,23,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringUtilsSubstringTest,996,0,0,0,208,0,14,0,14,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,EnumUtilsTest,1706,0,0,0,196,0,37,0,37,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,CharUtilsPerfRun,297,0,24,0,64,0,21,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Object() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringUtilsStartsEndsWithTest,550,0,0,0,92,0,7,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringEscapeUtilsTest,1356,0,14,0,334,0,43,0,36,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,RangeTest.new Comparator() {...},8,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,SerializationUtilsTest.new OutputStream() {...},11,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,BooleanUtilsTest,2172,0,48,0,654,0,96,0,72,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,RangeTest.new Comparator() {...},8,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,HashSetvBitSetTest,459,0,22,0,90,0,24,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ObjectUtilsTest,1680,0,6,0,291,0,40,0,37,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ArrayUtilsRemoveMultipleTest,9083,0,0,0,812,0,56,0,56,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Object() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,SerializationUtilsTest,839,0,28,0,219,0,42,0,28,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,CharSetUtilsTest,1215,0,0,0,155,0,12,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ConversionTest,11981,0,6,0,1361,0,48,0,45,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Object() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ObjectUtilsTest.NonComparableCharSequence,27,0,0,0,8,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ArrayUtilsTest,12184,0,30,0,2288,0,212,0,197,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,RandomUtilsTest,222,0,32,0,56,0,40,0,24,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,CharSetTest,1614,0,0,0,317,0,15,0,15,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringUtilsTest,10023,0,96,0,1591,0,170,0,122,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Object() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,CharUtilsTest,860,0,72,0,213,0,61,0,25,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Object() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ObjectUtilsTest.CloneableString,8,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Object() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringUtilsTrimEmptyTest,743,0,0,0,168,0,16,0,16,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ArrayUtilsTest.new Map.Entry() {...},22,0,0,0,7,0,6,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ValidateTest,1796,0,0,0,542,0,63,0,63,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,StringUtilsTest.new Object() {...},5,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,RandomStringUtilsTest,1051,0,102,0,191,0,65,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Cloneable() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassNotFoundSerialization,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,CharRangeTest,1031,0,28,0,265,0,31,0,17,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,NotImplementedExceptionTest,138,0,0,0,22,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.new Object() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,AnnotationUtilsTest,394,0,4,0,67,0,14,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ObjectUtilsTest.CharSequenceComparator,9,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,Traffic,34,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.CY,4,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest.Inner.DeeplyNested,6,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ArrayUtilsRemoveTest,2282,0,0,0,346,0,20,0,20,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ArrayUtilsAddTest,3545,0,0,0,403,0,14,0,14,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,BitFieldTest,856,0,30,0,124,0,32,0,17,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,RangeTest,1056,0,4,0,178,0,28,0,26,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassPathUtilsTest,114,0,0,0,40,0,14,0,14,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,ClassUtilsTest,3812,0,6,0,809,0,61,0,58,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3,LocaleUtilsTest,1117,0,54,0,303,0,52,0,25,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,ConstructorUtilsTest.TestBean,39,0,0,0,19,0,7,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest.GrandParentObject,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,ConstructorUtilsTest.PrivateClass,3,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeUtilsTest.Other,6,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AClass,7,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest.TestBean,30,0,0,0,16,0,16,0,16,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AAClass,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AClass.FClass,7,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeUtilsTest.The,7,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest.MethodDescriptor,12,0,0,0,5,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest.ParentObject,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,FieldUtilsTest,2847,0,0,0,720,0,59,0,59,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest.InheritanceBean,9,0,0,0,7,0,7,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,ConstructorUtilsTest.PrivateClass.PublicInnerClass,3,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AClass.CClass,7,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AClass.BClass,6,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest.TestMutable,3,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AAClass.BBClass,6,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AClass.EClass,7,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeUtilsTest.Thing,7,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest,87,0,0,0,16,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeUtilsTest.That,6,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeUtilsTest,2286,0,4,0,493,0,25,0,23,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,ConstructorUtilsTest,486,0,2,0,118,0,13,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,InheritanceUtilsTest,81,0,0,0,22,0,10,0,10,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest,1125,0,14,0,230,0,27,0,20,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AAAClass.BBBClass,7,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AClass.GClass,6,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest.TestBeanWithInterfaces,5,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AClass.DClass,7,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,MethodUtilsTest.ChildObject,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeLiteralTest.new TypeLiteral() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,TypeUtilsTest.Tester,6,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect,AAAClass,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventListenerSupportTest,366,0,2,0,83,0,13,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventListenerSupportTest.new VetoableChangeListener() {...},14,0,0,0,4,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventListenerSupportTest.new VetoableChangeListener() {...},15,0,0,0,4,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventUtilsTest.MultipleEventSource,12,0,0,0,4,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventUtilsTest.EventCountingInvociationHandler,65,0,4,0,13,0,6,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventUtilsTest.EventCounterWithEvent,13,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventUtilsTest,305,0,0,0,64,0,9,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventListenerSupportTest.new VetoableChangeListener() {...},7,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventUtilsTest.ExceptionEventSource,7,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventUtilsTest.EventCounter,13,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventUtilsTest.new PropertyChangeListener() {...},7,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventUtilsTest.PropertyChangeSource,37,0,0,0,11,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.event,EventListenerSupportTest.new EventListenerSupport() {...},13,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.tuple,ImmutableTripleTest,294,0,0,0,57,0,7,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.tuple,MutableTripleTest,291,0,0,0,59,0,9,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.tuple,ImmutablePairTest,214,0,0,0,46,0,7,0,7,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.tuple,PairTest,261,0,18,0,56,0,19,0,10,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.tuple,TripleTest,324,0,32,0,62,0,27,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.tuple,MutablePairTest,215,0,0,0,48,0,9,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,DefaultExceptionContextTest,23,0,0,0,7,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,ContextedExceptionTest,318,0,28,0,53,0,23,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,ContextedRuntimeExceptionTest.new DefaultExceptionContext() {...},6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,ExceptionUtilsTest.ExceptionWithCause,20,0,0,0,9,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,ExceptionUtilsTest.ExceptionWithoutCause,1,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,ExceptionUtilsTest.NestableException,7,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,AbstractExceptionContextTest,531,0,34,0,88,0,26,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,AbstractExceptionContextTest.ObjectWithFaultyToString,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,ExceptionUtilsTest,1371,0,16,0,264,0,41,0,33,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.exception,ContextedRuntimeExceptionTest,319,0,28,0,54,0,23,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest,4261,0,0,0,832,0,53,0,53,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},32,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,CompositeFormatTest.new Format() {...},13,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},32,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderTest.new StrMatcher() {...},26,0,8,0,7,0,6,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,FormattableUtilsTest,750,0,0,0,68,0,6,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,ExtendedMessageFormatTest.UpperCaseFormat,10,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},34,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,ExtendedMessageFormatTest.OtherExtendedMessageFormat,6,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrSubstitutorTest,1381,0,18,0,351,0,53,0,44,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},34,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},34,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,ExtendedMessageFormatTest.UpperCaseFormatFactory,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderTest,5923,0,40,0,1227,0,101,0,81,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},32,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,ExtendedMessageFormatTest.OverrideShortDateFormatFactory,15,0,4,0,4,0,3,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},34,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrTokenizerTest.new StrTokenizer() {...},11,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},32,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,ExtendedMessageFormatTest.LowerCaseFormat,10,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,CompositeFormatTest.new Format() {...},13,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,ExtendedMessageFormatTest,932,0,32,0,161,0,32,0,16,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},32,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrTokenizerTest,2445,0,26,0,551,0,73,0,60,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrMatcherTest,651,0,0,0,123,0,16,0,16,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrTokenizerTest.new StrTokenizer() {...},17,0,0,0,5,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},32,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,ExtendedMessageFormatTest.LowerCaseFormatFactory,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,CompositeFormatTest,78,0,0,0,16,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new Object() {...},5,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,WordUtilsTest,1201,0,0,0,249,0,13,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrTokenizerTest.new StrTokenizer() {...},14,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrBuilderAppendInsertTest.new StrBuilder() {...},34,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrSubstitutorTest.new StrSubstitutor() {...},27,0,0,0,7,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text,StrLookupTest,110,0,0,0,26,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,FastDateFormat_ParserTest,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,FastDateFormat_PrinterTest,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,DateFormatUtilsTest,586,0,0,0,147,0,10,0,10,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,FastDateFormatTest.new Runnable() {...},65,0,4,0,14,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,FastDateParserTest,1420,0,48,0,274,0,66,0,42,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,DateUtilsRoundingTest,1462,0,0,0,289,0,27,0,27,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,DurationFormatUtilsTest,2636,0,14,0,384,0,27,0,20,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,FastDateFormatTest.new SimpleDateFormat() {...},17,0,0,0,4,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,DateUtilsTest,4882,0,16,0,1234,0,55,0,47,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,StopWatchTest,412,0,26,0,131,0,22,0,9,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,DateUtilsFragmentTest,956,0,0,0,303,0,55,0,55,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,FastDatePrinterTest,593,0,4,0,138,0,23,0,21,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.time,FastDateFormatTest,553,0,24,0,155,0,28,0,16,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text.translate,UnicodeUnpairedSurrogateRemoverTest,67,0,0,0,11,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text.translate,NumericEntityUnescaperTest,114,0,0,0,29,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text.translate,EntityArraysTest,169,0,8,0,25,0,8,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text.translate,UnicodeEscaperTest,46,0,0,0,16,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text.translate,OctalUnescaperTest,128,0,0,0,39,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text.translate,NumericEntityEscaperTest,63,0,0,0,22,0,5,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text.translate,UnicodeUnescaperTest,46,0,0,0,16,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.text.translate,LookupTranslatorTest,92,0,0,0,13,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.math,IEEE754rUtilsTest,270,0,0,0,47,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.math,NumberUtilsTest,5082,0,466,0,863,0,326,0,93,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.math,FractionTest,3547,0,40,0,903,0,46,0,26,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,TimedSemaphoreTest,782,0,16,0,200,0,26,0,18,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,AtomicSafeInitializerTest.AtomicSafeInitializerTestImpl,16,0,0,0,4,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,LazyInitializerTest,13,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,TimedSemaphoreTest.TimedSemaphoreTestImpl,49,0,4,0,14,0,8,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,AbstractConcurrentInitializerTest,112,0,8,0,22,0,8,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,BackgroundInitializerTest.BackgroundInitializerTestImpl,27,0,4,0,9,0,5,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,AtomicInitializerTest.new AtomicInitializer() {...},10,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,CallableBackgroundInitializerTest.TestCallable,8,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,TimedSemaphoreTest.SemaphoreThread,38,0,4,0,13,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,BackgroundInitializerTest,329,0,2,0,108,0,18,0,17,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,BasicThreadFactoryTest,730,0,6,0,146,0,22,0,19,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,LazyInitializerTest.LazyInitializerTestImpl,4,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,CallableBackgroundInitializerTest,57,0,0,0,18,0,6,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,ConcurrentUtilsTest,789,0,0,0,230,0,41,0,41,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,MultiBackgroundInitializerTest,548,0,10,0,152,0,26,0,21,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,BackgroundInitializerTest.new Thread() {...},39,0,2,0,9,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,AtomicSafeInitializerTest,24,0,0,0,8,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,MultiBackgroundInitializerTest.ChildBackgroundInitializer,20,0,2,0,5,0,2,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,ConstantInitializerTest,185,0,10,0,42,0,16,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.concurrent,AtomicInitializerTest,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,StaticContainer,29,0,0,0,15,0,6,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,StringParameterizedChild,7,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,PubliclyShadowedChild,15,0,0,0,5,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,Grandchild,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,Ambig,4,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,PublicChild,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,GenericTypeHolder,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,AnotherChild,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,Parent,16,0,0,0,6,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,PrivatelyShadowedChild,15,0,0,0,5,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,GenericParent,4,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,AnotherParent,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.reflect.testbed,StaticContainerChild,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.mutable,MutableObjectTest,224,0,10,0,46,0,11,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.mutable,MutableBooleanTest,295,0,2,0,69,0,11,0,10,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.mutable,MutableShortTest,438,0,8,0,97,0,19,0,15,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.mutable,MutableDoubleTest,467,0,8,0,103,0,23,0,19,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.mutable,MutableIntTest,453,0,8,0,98,0,23,0,19,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.mutable,MutableFloatTest,467,0,8,0,103,0,23,0,19,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.mutable,MutableByteTest,442,0,8,0,96,0,22,0,18,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.mutable,MutableLongTest,449,0,8,0,100,0,22,0,18,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderAndEqualsBuilderTest.TestFixture,15,0,0,0,6,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,NoFieldNamesToStringStyleTest,806,0,0,0,62,0,11,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,MultiLineToStringStyleTest,1130,0,0,0,62,0,11,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.Outer,12,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,DiffTest,46,0,0,0,11,0,6,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.ReflectionTestFixtureA,9,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderMutateInspectConcurrencyTest.MutatingClient,26,0,2,0,9,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.MultiLineTestObject,20,0,0,0,3,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.ReflectionTestCycleA,6,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.SelfInstanceVarReflectionTestFixture,9,0,0,0,4,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,DefaultToStringStyleTest,806,0,0,0,62,0,11,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.SelfInstanceTwoVarsReflectionTestFixture,14,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ShortPrefixToStringStyleTest,507,0,0,0,62,0,11,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderTest.TestObjectWithMultipleFields,21,0,0,0,8,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,CompareToBuilderTest.TestTransientSubObject,7,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,RecursiveToStringStyleTest.Person,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderTest.ReflectionTestCycleB,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderAndEqualsBuilderTest.SubTestFixture,10,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,CompareToBuilderTest.TestSubObject,37,0,8,0,11,0,7,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderAndEqualsBuilderTest.SubAllTransientFixture,10,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.ReflectionTestCycleB,6,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderExcludeTest.TestFixture,12,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringStyleTest,159,0,0,0,49,0,13,0,13,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.SimpleReflectionTestFixture,12,0,0,0,6,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderMutateInspectConcurrencyTest.TestFixture,59,0,2,0,12,0,4,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.Outer.Inner,9,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestTSubObject,7,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,RecursiveToStringStyleTest,827,0,0,0,66,0,11,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderAndEqualsBuilderTest.AllTransientFixture,15,0,0,0,6,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,CompareToBuilderTest,6051,0,694,0,792,0,400,0,53,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderTest.TestObject,38,0,6,0,13,0,8,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,CompareToBuilderTest.TestObject,54,0,10,0,14,0,11,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestSubObject,58,0,10,0,15,0,11,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,SimpleToStringStyleTest,502,0,0,0,60,0,11,0,11,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,DiffTest.BooleanDiff,8,0,0,0,4,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.ObjectCycle,12,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,DiffResultTest.SimpleClass,0,22,0,0,0,7,0,3,0,3
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderConcurrencyTest.new Callable() {...},25,0,2,0,6,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderConcurrencyTest.CollectionHolder,6,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,RecursiveToStringStyleTest.Job,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestACanEqualB,45,0,10,0,12,0,9,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,DiffResultTest,17,208,0,2,6,52,1,11,1,10
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderConcurrencyTest.new Callable() {...},27,0,2,0,5,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringStyleTest.Person,3,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderExcludeTest,207,0,6,0,50,0,18,0,15,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestEmptySubObject,4,0,0,0,2,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestTSubObject2,11,0,0,0,5,0,3,0,3,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestBCanEqualA,45,0,10,0,12,0,9,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderTest,1764,0,0,0,260,0,44,0,44,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringStyleConcurrencyTest,96,0,4,0,22,0,8,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringStyleConcurrencyTest.new Callable() {...},29,0,2,0,5,0,3,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestTTSubObject,8,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest,4000,0,232,0,632,0,167,0,51,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,DiffBuilderTest.TypeTestClass,227,0,0,0,42,0,4,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderConcurrencyTest,96,0,4,0,20,0,7,0,5,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.ReflectionStaticFieldsFixture,18,0,0,0,5,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringStyleConcurrencyTest.CollectionHolder,6,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestTTLeafObject,9,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderAndEqualsBuilderTest,137,0,2,0,32,0,9,0,8,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,DiffBuilderTest,1173,0,0,0,232,0,28,0,28,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest,4745,0,14,0,518,0,87,0,80,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestObjectWithMultipleFields,21,0,0,0,5,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderTest.TestSubObject,48,0,8,0,13,0,8,0,4,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderMutateInspectConcurrencyTest.InspectingClient,14,0,0,0,5,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,HashCodeBuilderTest.ReflectionTestCycleA,8,0,0,0,2,0,2,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.SimpleReflectionStaticFieldsFixture,6,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.InheritedReflectionStaticFieldsFixture,7,0,0,0,1,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,StandardToStringStyleTest,542,0,0,0,74,0,12,0,12,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ReflectionToStringBuilderMutateInspectConcurrencyTest,49,0,4,0,11,0,4,0,2,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,ToStringBuilderTest.ReflectionTestFixtureB,9,0,0,0,3,0,1,0,1,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestObject,47,0,8,0,15,0,10,0,6,0
+DiffResultTest (25-Nov-2019 2:54:45 PM)/commons-lang3/src/test/java,org.apache.commons.lang3.builder,EqualsBuilderTest.TestObjectReference,19,0,0,0,6,0,3,0,3,0

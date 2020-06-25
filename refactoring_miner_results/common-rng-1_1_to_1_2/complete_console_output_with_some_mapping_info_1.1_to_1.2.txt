@@ -1,0 +1,537 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Steve/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.7/58f588119ffd1702c77ccab6acb54bfb41bed8bd/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Steve/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n].
+log4j: Adding appender named [console] to category [root].
+***********************************************************************************
+Refactorings at 1130baf18acfc09f544ab0ec75a04d0e9f0490a7
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng 1130baf18acfc09f544ab0ec75a04d0e9f0490a7 ...
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng 6216904ec0fec6e3ae07a3a678fc736cbedf95ce ...
+***********************************************************************************
+Refactorings at 6216904ec0fec6e3ae07a3a678fc736cbedf95ce
+***********************************************************************************
+Refactorings at 986ab303e1c81e37f7b8c1c8ab59e054a62c785f
+***********************************************************************************
+Refactorings at b45d6fb501d2d8cbd348f23e711ce3b078b579dc
+***********************************************************************************
+Refactorings at 35db222aff3f80b5930b059d4f78519dda8410f1
+***********************************************************************************
+Refactorings at f2586803ff67d776a48172d0ede13040c3a9500a
+***********************************************************************************
+Refactorings at c54506bd2859ae351b108e7b87494652812f9db8
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng c54506bd2859ae351b108e7b87494652812f9db8 ...
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng 8539ccbeda3d390390cfc57185cfc6d2f6d0ebee ...
+***********************************************************************************
+Refactorings at 8539ccbeda3d390390cfc57185cfc6d2f6d0ebee
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng 8539ccbeda3d390390cfc57185cfc6d2f6d0ebee ...
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng 74c2b58d321f1cd08e3a9b8f1911bada8008a319 ...
+***********************************************************************************
+Refactorings at 74c2b58d321f1cd08e3a9b8f1911bada8008a319
+***********************************************************************************
+Refactorings at 2f0a3e4ff4015475d0c3bf8945d655f80234244a
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng 74c2b58d321f1cd08e3a9b8f1911bada8008a319 ...
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng 4f92fa2b6db0f533810d3ec9efcd2f31d58dc041 ...
+***********************************************************************************
+Refactorings at 4f92fa2b6db0f533810d3ec9efcd2f31d58dc041
+***********************************************************************************
+Refactorings at b9a9d27085cde5e4153be8de581b4f5598aac676
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng b9a9d27085cde5e4153be8de581b4f5598aac676 ...
+2019-11-14 19:53:03 INFO  Processing \home\steve\Steve\git\commons-rng f5599152a715a987f36d7606ba3a967b7d297501 ...
+***********************************************************************************
+Refactorings at f5599152a715a987f36d7606ba3a967b7d297501
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng 2a31d8764facb77c8a3c301b0613078df8c93d13 ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng fa38dea519c49640c485299d47516f9fb3d51fde ...
+***********************************************************************************
+Refactorings at fa38dea519c49640c485299d47516f9fb3d51fde
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng fa38dea519c49640c485299d47516f9fb3d51fde ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng db751b911b56fecff1bce1ce33320e4308158c6a ...
+***********************************************************************************
+Refactorings at db751b911b56fecff1bce1ce33320e4308158c6a
+newLeaves: 
+[]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+***********************************************************************************
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng db751b911b56fecff1bce1ce33320e4308158c6a ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng b7723280bcaeb0ce9700d47cfc96b925d8a607cb ...
+***********************************************************************************
+Refactorings at b7723280bcaeb0ce9700d47cfc96b925d8a607cb
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng b7723280bcaeb0ce9700d47cfc96b925d8a607cb ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng 120d275ed34b4d5b9a0729e788382ffa39d050ce ...
+***********************************************************************************
+Refactorings at 120d275ed34b4d5b9a0729e788382ffa39d050ce
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng 21927cbc3005e5a7f3a45c527597a5733d735b4d ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng ef5470249ca404a28b7106d1a16ae768ad224cda ...
+***********************************************************************************
+Refactorings at ef5470249ca404a28b7106d1a16ae768ad224cda
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng ef5470249ca404a28b7106d1a16ae768ad224cda ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng 1fc5030af5a30bf0d292f060a5c943d4233ef553 ...
+***********************************************************************************
+Refactorings at 1fc5030af5a30bf0d292f060a5c943d4233ef553
+***********************************************************************************
+Refactorings at ab5acabdc94cbd8414a1bb339db9543ef03325c8
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng ab5acabdc94cbd8414a1bb339db9543ef03325c8 ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng 65abc5dcfe4198b4244d4083d790ea870edbebe5 ...
+***********************************************************************************
+Refactorings at 65abc5dcfe4198b4244d4083d790ea870edbebe5
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: (v.length + 1) * 4
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: (2 * SIZE + 4) * 4
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: SEED_SIZE * 4
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: (N + 1) * 4
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: (SEED_SIZE + 1) * 4
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: (NN + 1) * 8
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: 8
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: 16
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[final byte[] local=new byte[localStateLength];
+, System.arraycopy(state,0,local,0,localStateLength);
+, final int parentLength=state.length - localStateLength;
+, final byte[] parent=new byte[parentLength];
+, System.arraycopy(state,localStateLength,parent,0,parentLength);
+, return new byte[][]{local,parent};
+]
+newComposites: 
+[]
+deletedLeaves: 
+[]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+valueBefore: s
+valueAfter: state
+type: VARIABLE_NAME
+valueBefore: (SEED_SIZE + 1) * 8
+valueAfter: localStateLength
+type: VARIABLE_NAME
+***********************************************************************************
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng 65abc5dcfe4198b4244d4083d790ea870edbebe5 ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng 95417156731c05b899e9eaba53e3a83c2576b86e ...
+***********************************************************************************
+Refactorings at 95417156731c05b899e9eaba53e3a83c2576b86e
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng 95417156731c05b899e9eaba53e3a83c2576b86e ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng cf8e16eab302d24f53276d24e3cd44c827696b88 ...
+***********************************************************************************
+Refactorings at cf8e16eab302d24f53276d24e3cd44c827696b88
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng cf8e16eab302d24f53276d24e3cd44c827696b88 ...
+2019-11-14 19:53:04 INFO  Processing \home\steve\Steve\git\commons-rng a535cacdc470c87228e9bb6c362d7b4a72219aa6 ...
+***********************************************************************************
+Refactorings at a535cacdc470c87228e9bb6c362d7b4a72219aa6
+***********************************************************************************
+Refactorings at ddfa94cbf8db4362f9f703000df12347fc794121
+***********************************************************************************
+Refactorings at f4a4aad571b2cf9975fffd588bac3be8fc9ef2c6
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng f4a4aad571b2cf9975fffd588bac3be8fc9ef2c6 ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 350fb428eaf42a0ece8ebc59714201d590f6ff94 ...
+***********************************************************************************
+Refactorings at 350fb428eaf42a0ece8ebc59714201d590f6ff94
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 350fb428eaf42a0ece8ebc59714201d590f6ff94 ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 8c927dc65dc5d86daa16304a83b033b25c43fd28 ...
+***********************************************************************************
+Refactorings at 8c927dc65dc5d86daa16304a83b033b25c43fd28
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 8c927dc65dc5d86daa16304a83b033b25c43fd28 ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 0fdcd9007c708aa48f1989cb2211ea56c1fcd702 ...
+***********************************************************************************
+Refactorings at 0fdcd9007c708aa48f1989cb2211ea56c1fcd702
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 0fdcd9007c708aa48f1989cb2211ea56c1fcd702 ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 91a5eec2d8a3318cf8fc8e6d222ac3edf3a0d969 ...
+***********************************************************************************
+Refactorings at 91a5eec2d8a3318cf8fc8e6d222ac3edf3a0d969
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng dd79e30df3192b4a20c6c5bcbeebe0d2d04cea5e ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 745af549050856e2d62e597aed98300f3193d0af ...
+***********************************************************************************
+Refactorings at 745af549050856e2d62e597aed98300f3193d0af
+***********************************************************************************
+Refactorings at fc3c1b984e7ea35695b59621e0bd2a330ab4fa11
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng fc3c1b984e7ea35695b59621e0bd2a330ab4fa11 ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 5ae875293e0591db9248992343f3c030ea43079f ...
+***********************************************************************************
+Refactorings at 5ae875293e0591db9248992343f3c030ea43079f
+newLeaves: 
+[array[i]=array[j];
+]
+newComposites: 
+[]
+deletedLeaves: 
+[final int target;
+, target=start;
+, target=rng.nextInt(start - i + 1) + i;
+, list[target]=list[i];
+, final int target;
+, target=start;
+, target=rng.nextInt(i - start + 1) + start;
+, final int temp=list[target];
+, list[target]=list[i];
+, list[i]=temp;
+]
+deletedComposites: 
+[{, {, if(i == start), for(int i=0; i <= start; i++), {, {, if(i == start)]
+**************** Replacements: ***********
+
+valueBefore: list
+valueAfter: array
+type: VARIABLE_NAME
+valueBefore: temp
+valueAfter: tmp
+type: VARIABLE_NAME
+valueBefore: target
+valueAfter: i
+type: VARIABLE_NAME
+**************** Replacements: ***********
+
+valueBefore: list
+valueAfter: array
+type: VARIABLE_NAME
+valueBefore: i
+valueAfter: j
+type: VARIABLE_NAME
+valueBefore: temp
+valueAfter: tmp
+type: VARIABLE_NAME
+***********************************************************************************
+newLeaves: 
+[array[i]=array[j];
+]
+newComposites: 
+[]
+deletedLeaves: 
+[final int target;
+, target=start;
+, target=rng.nextInt(start - i + 1) + i;
+, list[target]=list[i];
+, final int target;
+, target=start;
+, target=rng.nextInt(i - start + 1) + start;
+, list[target]=list[i];
+]
+deletedComposites: 
+[{, {, if(i == start), for(int i=0; i <= start; i++), {, {, if(i == start)]
+**************** Replacements: ***********
+
+valueBefore: list
+valueAfter: array
+type: VARIABLE_NAME
+valueBefore: temp
+valueAfter: tmp
+type: VARIABLE_NAME
+valueBefore: target
+valueAfter: i
+type: VARIABLE_NAME
+**************** Replacements: ***********
+
+valueBefore: list
+valueAfter: array
+type: VARIABLE_NAME
+valueBefore: i
+valueAfter: j
+type: VARIABLE_NAME
+valueBefore: temp
+valueAfter: tmp
+type: VARIABLE_NAME
+***********************************************************************************
+***********************************************************************************
+Refactorings at cd55a9efc337b058438791dc49d7ac0a3e75dfda
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 0fdcd9007c708aa48f1989cb2211ea56c1fcd702 ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 6dca4630fb4df34eb5e106dfbbe66bff271526ee ...
+***********************************************************************************
+Refactorings at 6dca4630fb4df34eb5e106dfbbe66bff271526ee
+***********************************************************************************
+Refactorings at bf5028e2081ebe936dba9adb29e9d0f00053386f
+***********************************************************************************
+Refactorings at 974b86453c986b2564afe8f1b58d5dec820e574a
+***********************************************************************************
+Refactorings at 37638f12138b493f907566bac2d1ab6221158bfd
+***********************************************************************************
+Refactorings at 17ddb9f3376a1cc2e798246fedcf73320902354c
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 974b86453c986b2564afe8f1b58d5dec820e574a ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 8626198d63246da1ca198b4645ddbc99a83c87e8 ...
+***********************************************************************************
+Refactorings at 8626198d63246da1ca198b4645ddbc99a83c87e8
+***********************************************************************************
+Refactorings at a44218d984221194cb3ad0583e63fbc4c9461c5b
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng a44218d984221194cb3ad0583e63fbc4c9461c5b ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng ff9f77656fc0e15c60b70b1afbb2816d7636f3d6 ...
+***********************************************************************************
+Refactorings at ff9f77656fc0e15c60b70b1afbb2816d7636f3d6
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 1bbf43bbc2d324ef0208f576e20cad80651bd84b ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae ...
+***********************************************************************************
+Refactorings at 42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae
+newLeaves: 
+[final PermutationSampler sampler=new PermutationSampler(rng,n,k);
+]
+newComposites: 
+[]
+deletedLeaves: 
+[final PermutationSampler sampler=new PermutationSampler(rng,3,3);
+]
+deletedComposites: 
+[]
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+**************** Replacements: ***********
+
+***********************************************************************************
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 584ddc4b98559c070f4dc3136d214ea168dd2f34 ...
+***********************************************************************************
+Refactorings at 584ddc4b98559c070f4dc3136d214ea168dd2f34
+***********************************************************************************
+Refactorings at 23a1652c8e6adbbbabb855b1500bfc48cde028f7
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 23a1652c8e6adbbbabb855b1500bfc48cde028f7 ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng a39c3a97a41c8705133bd19373f573a634b12125 ...
+***********************************************************************************
+Refactorings at a39c3a97a41c8705133bd19373f573a634b12125
+***********************************************************************************
+Refactorings at 18dbee6fd8f86b821a61a6ae4b4d411d4e29a4cc
+***********************************************************************************
+Refactorings at a983f303404a8224050e73b448bcf15d8888f2c0
+***********************************************************************************
+Refactorings at 35435bf440964cae339cf6828c40b3006ea21627
+***********************************************************************************
+Refactorings at 7b1262668a0cd6d03614902c0de6bd1f18c8626a
+***********************************************************************************
+Refactorings at 071e7067e2ae5b577ff6f6e7e2a246470f8f32eb
+***********************************************************************************
+Refactorings at a01a55a3ce837a2275c3558c16c34b4d6e0b1f65
+***********************************************************************************
+Refactorings at 8c2801c042264787d3e4281e07cedcfe425b1449
+***********************************************************************************
+Refactorings at 741301589c8e179396798fc185b27f3bfcc3f375
+***********************************************************************************
+Refactorings at ae49cc970780be54f9a8c19415b196e53b04c437
+***********************************************************************************
+Refactorings at 0c8758fa9b40b8456b82988671c8e24842b2ccb1
+***********************************************************************************
+Refactorings at a540c18df332191474cf5cedb3ed10b97b39d9eb
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng a540c18df332191474cf5cedb3ed10b97b39d9eb ...
+2019-11-14 19:53:05 INFO  Processing \home\steve\Steve\git\commons-rng 1d3d70b00968eb1e59d9fe4cba3fd376a7f5a44a ...
+***********************************************************************************
+Refactorings at 1d3d70b00968eb1e59d9fe4cba3fd376a7f5a44a
+***********************************************************************************
+Refactorings at 4b9f96e55bd19bde50e4b1626deea1d29452b97b
+***********************************************************************************
+Refactorings at b2962029ab9c2929974a83a9a74bf1afea5d9cda
+***********************************************************************************
+Refactorings at 3604295fffb253acc02ddde12e77d309f66c7f06
+***********************************************************************************
+Refactorings at 3fd55ea6481c3cee14529b025c4480bcce169aa1
+***********************************************************************************
+Refactorings at 2b7c6e54bcdbb868d8d9719ca96784330f7f8d0e
+***********************************************************************************
+Refactorings at e736acd727e6d81bd986470678f6f96ce3ba74d1
+***********************************************************************************
+Refactorings at f73cd6c322b953bc43729a33e601b1f83113cf46
+***********************************************************************************
+Refactorings at 0d6d0494d5825b8efc06e1e9ba6f2ff1e75c8fe9
+***********************************************************************************
+Refactorings at ed941b688bcef04256aff7dce03a34eadd5e786f
+***********************************************************************************
+Refactorings at 3ca48892811538e911eb3c5bafd60b4d9ca92483
+2019-11-14 19:53:05 INFO  Analyzed commons-rng [Commits: 68, Errors: 0, Refactorings: 24]

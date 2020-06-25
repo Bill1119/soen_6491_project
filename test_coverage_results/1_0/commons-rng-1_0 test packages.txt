@@ -1,0 +1,37 @@
+1.commons-rng-core package
+ISAACRandomTest
+JDKRandomTest
+KISSRandomTest
+MersenneTwister64Test
+MersenneTwisterTest
+MultiplyWithCarry256Test
+NumberFactoryTest
+Providers32ParametricTest
+Providers64ParametricTest
+ProvidersCommonParametricTest-core
+RandomProviderDefaultStateTest
+SplitMix64Test
+TwoCmresTest
+Well1024aTest
+Well19937aTest
+Well19937cTest
+Well44497aTest
+Well44497bTest
+Well512aTest
+XorShift1024StarTest
+
+2.commons-rng-sampling package
+CollectionSamplerTest
+ContinuousSamplerParametricTest
+DiscreteSamplerParametricTest
+ListSamplerTest
+PermutationSamplerTest
+
+3.commons-rng-simple package
+ByteArray2IntArrayTest
+ByteArray2LongArrayTest
+IntArray2LongArrayTest
+JDKRandomBridgeTest
+ProvidersCommonParametricTest-simple
+RandomSourceTest
+SeedFactoryTest

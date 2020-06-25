@@ -1,0 +1,224 @@
+{
+    "94f084324a99f4f84464ad3b5574a84adc1028e9": [
+        {
+            "commit": "94f084324a99f4f84464ad3b5574a84adc1028e9",
+            "refactoring_type": "Change Attribute Type",
+            "refactoring_mapping": "Change Attribute Type\tgaussian : BoxMullerGaussianSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+            "file": "AhrensDieterMarsagliaTsangGammaSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+            "refactoring_instance": "94f084324a99f4f84464ad3b5574a84adc1028e9;Change Attribute Type;Change Attribute Type\tgaussian : BoxMullerGaussianSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler"
+        },
+        {
+            "commit": "94f084324a99f4f84464ad3b5574a84adc1028e9",
+            "refactoring_type": "Change Attribute Type",
+            "refactoring_mapping": "Change Attribute Type\tgaussian : BoxMullerGaussianSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.BoxMullerLogNormalSampler",
+            "file": "BoxMullerLogNormalSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.BoxMullerLogNormalSampler",
+            "refactoring_instance": "94f084324a99f4f84464ad3b5574a84adc1028e9;Change Attribute Type;Change Attribute Type\tgaussian : BoxMullerGaussianSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.BoxMullerLogNormalSampler"
+        },
+        {
+            "commit": "94f084324a99f4f84464ad3b5574a84adc1028e9",
+            "refactoring_type": "Change Attribute Type",
+            "refactoring_mapping": "Change Attribute Type\tgaussian : ContinuousSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.PoissonSampler",
+            "file": "PoissonSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.PoissonSampler",
+            "refactoring_instance": "94f084324a99f4f84464ad3b5574a84adc1028e9;Change Attribute Type;Change Attribute Type\tgaussian : ContinuousSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.PoissonSampler"
+        }
+    ],
+    "4ef78f53b61eb5df545751da8d3895a3206c1b5a": [
+        {
+            "commit": "4ef78f53b61eb5df545751da8d3895a3206c1b5a",
+            "refactoring_type": "Rename Class",
+            "refactoring_mapping": "Rename Class\torg.apache.commons.rng.sampling.distribution.BoxMullerWithRejectionNormalizedGaussianSampler renamed to org.apache.commons.rng.sampling.distribution.MarsagliaNormalizedGaussianSampler",
+            "file": "MarsagliaNormalizedGaussianSampler",
+            "location": "Rename Class\torg.apache.commons.rng.sampling.distribution.BoxMullerWithRejectionNormalizedGaussianSampler renamed to org.apache.commons.rng.sampling.distribution.MarsagliaNormalizedGaussianSampler",
+            "refactoring_instance": "4ef78f53b61eb5df545751da8d3895a3206c1b5a;Rename Class;Rename Class\torg.apache.commons.rng.sampling.distribution.BoxMullerWithRejectionNormalizedGaussianSampler renamed to org.apache.commons.rng.sampling.distribution.MarsagliaNormalizedGaussianSampler"
+        }
+    ],
+    "8d216eb2dcfe697d4781c4d04d3c378766ad0429": [
+        {
+            "commit": "8d216eb2dcfe697d4781c4d04d3c378766ad0429",
+            "refactoring_type": "Rename Class",
+            "refactoring_mapping": "Rename Class\torg.apache.commons.rng.sampling.distribution.ZigguratGaussianSampler renamed to org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+            "file": "ZigguratNormalizedGaussianSampler",
+            "location": "Rename Class\torg.apache.commons.rng.sampling.distribution.ZigguratGaussianSampler renamed to org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+            "refactoring_instance": "8d216eb2dcfe697d4781c4d04d3c378766ad0429;Rename Class;Rename Class\torg.apache.commons.rng.sampling.distribution.ZigguratGaussianSampler renamed to org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler"
+        }
+    ],
+    "75c7e43c7ea98ca710713c53d0506aad0da9cc42": [
+        {
+            "commit": "75c7e43c7ea98ca710713c53d0506aad0da9cc42",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\thz : int to hz : long in method private fix(hz long, iz int) : double in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+            "file": "ZigguratNormalizedGaussianSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+            "refactoring_instance": "75c7e43c7ea98ca710713c53d0506aad0da9cc42;Change Parameter Type;Change Parameter Type\thz : int to hz : long in method private fix(hz long, iz int) : double in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler"
+        },
+        {
+            "commit": "75c7e43c7ea98ca710713c53d0506aad0da9cc42",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\tj : int to j : long in method public sample() : double in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+            "file": "ZigguratNormalizedGaussianSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+            "refactoring_instance": "75c7e43c7ea98ca710713c53d0506aad0da9cc42;Change Variable Type;Change Variable Type\tj : int to j : long in method public sample() : double in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler"
+        },
+        {
+            "commit": "75c7e43c7ea98ca710713c53d0506aad0da9cc42",
+            "refactoring_type": "Change Attribute Type",
+            "refactoring_mapping": "Change Attribute Type\tKN : int[] to K : long[] in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+            "file": "ZigguratNormalizedGaussianSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+            "refactoring_instance": "75c7e43c7ea98ca710713c53d0506aad0da9cc42;Change Attribute Type;Change Attribute Type\tKN : int[] to K : long[] in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler"
+        }
+    ],
+    "d1105853ea4bdb5a330b6b697a96900c77f50dff": [
+        {
+            "commit": "d1105853ea4bdb5a330b6b697a96900c77f50dff",
+            "refactoring_type": "Change Attribute Type",
+            "refactoring_mapping": "Change Attribute Type\tsampler : MarsagliaNormalizedGaussianSampler to sampler : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.UnitSphereSampler",
+            "file": "UnitSphereSampler",
+            "location": "org.apache.commons.rng.sampling.UnitSphereSampler",
+            "refactoring_instance": "d1105853ea4bdb5a330b6b697a96900c77f50dff;Change Attribute Type;Change Attribute Type\tsampler : MarsagliaNormalizedGaussianSampler to sampler : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.UnitSphereSampler"
+        }
+    ],
+    "daf0f7b0d3e0fa33d13743d35ddee18fca7b2bf6": [
+        {
+            "commit": "daf0f7b0d3e0fa33d13743d35ddee18fca7b2bf6",
+            "refactoring_type": "Replace Variable With Attribute",
+            "refactoring_mapping": "Replace Variable With Attribute\tbGS : double to bGSOptim : double in method public sample() : double in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+            "file": "AhrensDieterMarsagliaTsangGammaSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+            "refactoring_instance": "daf0f7b0d3e0fa33d13743d35ddee18fca7b2bf6;Replace Variable With Attribute;Replace Variable With Attribute\tbGS : double to bGSOptim : double in method public sample() : double in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler"
+        },
+        {
+            "commit": "daf0f7b0d3e0fa33d13743d35ddee18fca7b2bf6",
+            "refactoring_type": "Replace Variable With Attribute",
+            "refactoring_mapping": "Replace Variable With Attribute\td : double to dOptim : double in method public sample() : double in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+            "file": "AhrensDieterMarsagliaTsangGammaSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+            "refactoring_instance": "daf0f7b0d3e0fa33d13743d35ddee18fca7b2bf6;Replace Variable With Attribute;Replace Variable With Attribute\td : double to dOptim : double in method public sample() : double in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler"
+        }
+    ],
+    "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316": [
+        {
+            "commit": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316",
+            "refactoring_type": "Change Package",
+            "refactoring_mapping": "Change Package\torg.apache.commons.rng.examples.integration to org.apache.commons.rng.examples.quadrature",
+            "file": "quadrature",
+            "location": "Change Package\torg.apache.commons.rng.examples.integration to org.apache.commons.rng.examples.quadrature",
+            "refactoring_instance": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316;Change Package;Change Package\torg.apache.commons.rng.examples.integration to org.apache.commons.rng.examples.quadrature"
+        },
+        {
+            "commit": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316",
+            "refactoring_type": "Move Class",
+            "refactoring_mapping": "Move Class\torg.apache.commons.rng.examples.integration.ComputePi moved to org.apache.commons.rng.examples.quadrature.ComputePi",
+            "file": "ComputePi",
+            "location": "Move Class\torg.apache.commons.rng.examples.integration.ComputePi moved to org.apache.commons.rng.examples.quadrature.ComputePi",
+            "refactoring_instance": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316;Move Class;Move Class\torg.apache.commons.rng.examples.integration.ComputePi moved to org.apache.commons.rng.examples.quadrature.ComputePi"
+        },
+        {
+            "commit": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316",
+            "refactoring_type": "Move Class",
+            "refactoring_mapping": "Move Class\torg.apache.commons.rng.examples.integration.MonteCarloIntegration moved to org.apache.commons.rng.examples.quadrature.MonteCarloIntegration",
+            "file": "MonteCarloIntegration",
+            "location": "Move Class\torg.apache.commons.rng.examples.integration.MonteCarloIntegration moved to org.apache.commons.rng.examples.quadrature.MonteCarloIntegration",
+            "refactoring_instance": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316;Move Class;Move Class\torg.apache.commons.rng.examples.integration.MonteCarloIntegration moved to org.apache.commons.rng.examples.quadrature.MonteCarloIntegration"
+        },
+        {
+            "commit": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316",
+            "refactoring_type": "Move Source Folder",
+            "refactoring_mapping": "Move Source Folder\tcommons-rng-examples to commons-rng-examples/examples-sampling",
+            "file": "Move Source Folder\tcommons-rng-examples to commons-rng-examples/examples-sampling",
+            "location": "Move Source Folder\tcommons-rng-examples to commons-rng-examples/examples-sampling",
+            "refactoring_instance": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316;Move Source Folder;Move Source Folder\tcommons-rng-examples to commons-rng-examples/examples-sampling"
+        },
+        {
+            "commit": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316",
+            "refactoring_type": "Move Source Folder",
+            "refactoring_mapping": "Move Source Folder\tcommons-rng-examples to commons-rng-examples/examples-stress",
+            "file": "Move Source Folder\tcommons-rng-examples to commons-rng-examples/examples-stress",
+            "location": "Move Source Folder\tcommons-rng-examples to commons-rng-examples/examples-stress",
+            "refactoring_instance": "2fdb5227f2d3dcf3ead63dcc369b96447c7a0316;Move Source Folder;Move Source Folder\tcommons-rng-examples to commons-rng-examples/examples-stress"
+        }
+    ],
+    "312abc0ea3db9a6e16d92799c3329a65baef0dbd": [
+        {
+            "commit": "312abc0ea3db9a6e16d92799c3329a65baef0dbd",
+            "refactoring_type": "Move Class",
+            "refactoring_mapping": "Move Class\torg.apache.commons.rng.jmh.GenerationPerformance moved to org.apache.commons.rng.examples.jmh.GenerationPerformance",
+            "file": "GenerationPerformance",
+            "location": "Move Class\torg.apache.commons.rng.jmh.GenerationPerformance moved to org.apache.commons.rng.examples.jmh.GenerationPerformance",
+            "refactoring_instance": "312abc0ea3db9a6e16d92799c3329a65baef0dbd;Move Class;Move Class\torg.apache.commons.rng.jmh.GenerationPerformance moved to org.apache.commons.rng.examples.jmh.GenerationPerformance"
+        },
+        {
+            "commit": "312abc0ea3db9a6e16d92799c3329a65baef0dbd",
+            "refactoring_type": "Move Class",
+            "refactoring_mapping": "Move Class\torg.apache.commons.rng.jmh.distribution.NextGaussianPerformance moved to org.apache.commons.rng.examples.jmh.distribution.NextGaussianPerformance",
+            "file": "NextGaussianPerformance",
+            "location": "Move Class\torg.apache.commons.rng.jmh.distribution.NextGaussianPerformance moved to org.apache.commons.rng.examples.jmh.distribution.NextGaussianPerformance",
+            "refactoring_instance": "312abc0ea3db9a6e16d92799c3329a65baef0dbd;Move Class;Move Class\torg.apache.commons.rng.jmh.distribution.NextGaussianPerformance moved to org.apache.commons.rng.examples.jmh.distribution.NextGaussianPerformance"
+        },
+        {
+            "commit": "312abc0ea3db9a6e16d92799c3329a65baef0dbd",
+            "refactoring_type": "Move Class",
+            "refactoring_mapping": "Move Class\torg.apache.commons.rng.jmh.distribution.SamplersPerformance moved to org.apache.commons.rng.examples.jmh.distribution.SamplersPerformance",
+            "file": "SamplersPerformance",
+            "location": "Move Class\torg.apache.commons.rng.jmh.distribution.SamplersPerformance moved to org.apache.commons.rng.examples.jmh.distribution.SamplersPerformance",
+            "refactoring_instance": "312abc0ea3db9a6e16d92799c3329a65baef0dbd;Move Class;Move Class\torg.apache.commons.rng.jmh.distribution.SamplersPerformance moved to org.apache.commons.rng.examples.jmh.distribution.SamplersPerformance"
+        }
+    ],
+    "20f33fb6b43d83176cef0c568ad35b851c5e239d": [
+        {
+            "commit": "20f33fb6b43d83176cef0c568ad35b851c5e239d",
+            "refactoring_type": "Move Source Folder",
+            "refactoring_mapping": "Move Source Folder\tcommons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng to commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples",
+            "file": "Move Source Folder\tcommons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng to commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples",
+            "location": "Move Source Folder\tcommons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng to commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples",
+            "refactoring_instance": "20f33fb6b43d83176cef0c568ad35b851c5e239d;Move Source Folder;Move Source Folder\tcommons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng to commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples"
+        }
+    ],
+    "f8814d02c3388eeab1ce0453172b26a4f0607df7": [
+        {
+            "commit": "f8814d02c3388eeab1ce0453172b26a4f0607df7",
+            "refactoring_type": "Extract Attribute",
+            "refactoring_mapping": "Extract Attribute\tprivate HEX_FORMAT : String in class org.apache.commons.rng.core.source64.TwoCmres.Cmres",
+            "file": "Cmres",
+            "location": "org.apache.commons.rng.core.source64.TwoCmres.Cmres",
+            "refactoring_instance": "f8814d02c3388eeab1ce0453172b26a4f0607df7;Extract Attribute;Extract Attribute\tprivate HEX_FORMAT : String in class org.apache.commons.rng.core.source64.TwoCmres.Cmres"
+        }
+    ],
+    "7b4a41428c2bed270261b4fedd3a562adaee04b5": [
+        {
+            "commit": "7b4a41428c2bed270261b4fedd3a562adaee04b5",
+            "refactoring_type": "Change Attribute Type",
+            "refactoring_mapping": "Change Attribute Type\texponential : ContinuousSampler to poissonSampler : DiscreteSampler in class org.apache.commons.rng.sampling.distribution.PoissonSampler",
+            "file": "PoissonSampler",
+            "location": "org.apache.commons.rng.sampling.distribution.PoissonSampler",
+            "refactoring_instance": "7b4a41428c2bed270261b4fedd3a562adaee04b5;Change Attribute Type;Change Attribute Type\texponential : ContinuousSampler to poissonSampler : DiscreteSampler in class org.apache.commons.rng.sampling.distribution.PoissonSampler"
+        },
+        {
+            "commit": "7b4a41428c2bed270261b4fedd3a562adaee04b5",
+            "refactoring_type": "Move Attribute",
+            "refactoring_mapping": "Move Attribute\tprivate exponential : ContinuousSampler from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private exponential : ContinuousSampler from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+            "file": "LargeMeanPoissonSampler",
+            "location": "Move Attribute\tprivate exponential : ContinuousSampler from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private exponential : ContinuousSampler from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+            "refactoring_instance": "7b4a41428c2bed270261b4fedd3a562adaee04b5;Move Attribute;Move Attribute\tprivate exponential : ContinuousSampler from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private exponential : ContinuousSampler from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler"
+        },
+        {
+            "commit": "7b4a41428c2bed270261b4fedd3a562adaee04b5",
+            "refactoring_type": "Move Attribute",
+            "refactoring_mapping": "Move Attribute\tprivate factorialLog : InternalUtils.FactorialLog from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private factorialLog : InternalUtils.FactorialLog from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+            "file": "LargeMeanPoissonSampler",
+            "location": "Move Attribute\tprivate factorialLog : InternalUtils.FactorialLog from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private factorialLog : InternalUtils.FactorialLog from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+            "refactoring_instance": "7b4a41428c2bed270261b4fedd3a562adaee04b5;Move Attribute;Move Attribute\tprivate factorialLog : InternalUtils.FactorialLog from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private factorialLog : InternalUtils.FactorialLog from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler"
+        },
+        {
+            "commit": "7b4a41428c2bed270261b4fedd3a562adaee04b5",
+            "refactoring_type": "Move Method",
+            "refactoring_mapping": "Move Method\tprivate factorialLog(n int) : double from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private factorialLog(n int) : double from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+            "file": "LargeMeanPoissonSampler",
+            "location": "Move Method\tprivate factorialLog(n int) : double from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private factorialLog(n int) : double from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+            "refactoring_instance": "7b4a41428c2bed270261b4fedd3a562adaee04b5;Move Method;Move Method\tprivate factorialLog(n int) : double from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private factorialLog(n int) : double from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler"
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.util,NumberFactory,330,18,22,0,64,3,26,3,15,3
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core,BaseProvider,209,49,20,4,42,11,23,4,12,3
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core,RandomProviderDefaultState,16,0,0,0,4,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source64,LongProvider,159,3,6,0,31,1,11,1,8,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source64,TwoCmres,183,0,10,0,36,0,15,0,10,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source64,TwoCmres.Cmres,81,0,0,0,16,0,6,0,6,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source64,XorShift1024Star,103,0,0,0,20,0,5,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source64,SplitMix64,13,41,0,0,4,9,2,3,2,3
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source64,MersenneTwister64,393,0,20,0,59,0,17,0,7,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source64,TwoCmres.Cmres.Factory,125,0,8,0,28,0,9,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,KISSRandom,161,0,0,0,27,0,6,0,6,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,Well512a,108,0,0,0,16,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,Well44497a,136,14,2,0,18,3,2,2,1,2
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,MultiplyWithCarry256,138,0,6,0,28,0,8,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,Well19937a,138,0,0,0,19,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,Well19937c,25,0,0,0,6,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,AbstractWell.IndexTable,25,82,0,2,5,14,5,2,5,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,MersenneTwister,444,0,28,0,70,0,21,0,7,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,ISAACRandom,107,938,1,17,18,115,3,17,2,9
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,AbstractWell,85,50,3,1,11,13,4,3,2,3
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,Well1024a,112,0,0,0,17,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,IntProvider,119,6,6,0,26,2,10,2,7,2
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,JDKRandom,65,0,0,0,18,0,4,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/main/java,org.apache.commons.rng.core.source32,Well44497b,21,4,0,0,4,2,1,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.util,NumberFactoryTest,296,0,28,0,73,0,26,0,12,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new RandomProviderState() {...},6,0,0,0,2,0,1,0,1,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Runnable() {...},16,0,0,0,4,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.DummyGenerator,12,0,0,0,4,0,4,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Callable() {...},12,0,0,0,3,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Runnable() {...},18,0,0,0,4,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,BaseProviderTest.DummyGenerator,18,0,0,0,6,0,4,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersList,333,0,0,0,34,0,5,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Callable() {...},17,0,2,0,3,0,3,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Callable() {...},15,0,0,0,3,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,RandomAssert,49,0,4,0,7,0,5,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,Providers32ParametricTest,88,0,4,0,12,0,5,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,RandomProviderDefaultStateTest,45,0,0,0,5,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,BaseProviderTest,161,0,12,0,25,0,11,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Callable() {...},19,0,2,0,3,0,3,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest,903,0,48,0,209,0,56,0,32,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Callable() {...},17,0,0,0,3,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Callable() {...},15,0,0,0,3,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,ProvidersCommonParametricTest.new Callable() {...},19,0,0,0,3,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core,Providers64ParametricTest,84,0,4,0,12,0,5,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source64,XorShift1024StarTest,240,0,0,0,19,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source64,SplitMix64Test,174,0,0,0,14,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source64,MersenneTwister64Test,4032,0,0,0,255,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source64,TwoCmresTest,152,0,12,0,30,0,10,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,Well512aTest,1104,0,0,0,39,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,Well19937cTest,4264,0,2,0,141,0,3,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,KISSRandomTest,4032,0,0,0,131,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,Well44497bTest,8360,0,2,0,269,0,3,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,MersenneTwisterTest,4032,0,0,0,130,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,MultiplyWithCarry256Test,5044,0,0,0,163,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,Well19937aTest,4264,0,2,0,141,0,3,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,ISAACRandomTest,9246,0,0,0,298,0,4,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,Well44497aTest,8360,0,2,0,269,0,3,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,JDKRandomTest,41,0,2,0,8,0,3,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-core/src/test/java,org.apache.commons.rng.core.source32,Well1024aTest,1168,0,0,0,41,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling,CollectionSampler,30,0,2,0,7,0,3,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling,PermutationSampler,28,148,2,16,2,36,2,12,0,5
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling,ListSampler,6,68,0,4,2,14,1,4,1,2
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,InverseTransformDiscreteSampler,29,0,0,0,5,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,AhrensDieterMarsagliaTsangGammaSampler,188,0,14,0,33,0,10,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,InverseTransformContinuousSampler,29,0,0,0,5,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,ChengBetaSampler,316,0,24,0,53,0,18,0,6,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,RejectionInversionZipfSampler,227,0,18,0,34,0,17,0,8,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,PoissonSampler,410,0,34,0,74,0,22,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,DiscreteUniformSampler,68,0,8,0,14,0,7,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,SamplerBase,29,0,0,0,7,0,5,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,ContinuousUniformSampler,36,0,0,0,7,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,BoxMullerLogNormalSampler,41,0,0,0,7,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,InternalUtils.FactorialLog,100,0,14,0,18,0,11,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,InternalGamma,122,0,2,0,24,0,4,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,BoxMullerGaussianSampler,70,0,2,0,17,0,4,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,InternalUtils,92,0,0,0,9,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,InverseTransformParetoSampler,32,0,0,0,6,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/main/java,org.apache.commons.rng.sampling.distribution,AhrensDieterExponentialSampler,127,0,10,0,29,0,9,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling,PermutationSamplerTest,561,0,34,0,94,0,31,0,14,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling,CollectionSamplerTest,64,0,4,0,17,0,5,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling,ListSamplerTest,34,508,3,25,7,69,3,19,0,8
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling.distribution,DiscreteSamplersList.new DiscreteInverseCumulativeProbabilityFunction() {...},15,0,0,0,4,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling.distribution,DiscreteSamplerTestData,77,0,2,0,13,0,6,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling.distribution,DiscreteSamplersList,388,0,6,0,90,0,9,0,6,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling.distribution,ContinuousSamplerTestData,34,0,0,0,7,0,4,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling.distribution,ContinuousSamplerParametricTest,187,0,16,0,39,0,12,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling.distribution,ContinuousSamplersList.new ContinuousInverseCumulativeProbabilityFunction() {...},15,0,0,0,4,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling.distribution,ContinuousSamplersList,518,0,2,0,120,0,6,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-sampling/src/test/java,org.apache.commons.rng.sampling.distribution,DiscreteSamplerParametricTest,168,0,14,0,39,0,11,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,Long2Int,5,3,0,0,1,1,1,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,NoOpConverter,2,3,0,0,1,1,1,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,IntArray2LongArray,43,3,4,0,7,1,3,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,LongArray2IntArray,33,3,2,0,6,1,2,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,Long2IntArray,0,14,0,0,0,4,0,2,0,2
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,SeedConverterComposer,10,9,0,0,2,4,1,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,Int2Long,10,3,0,0,2,1,1,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,ProviderBuilder,127,259,20,6,26,58,13,5,0,5
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,IntArray2Int,19,3,2,0,4,1,2,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,ByteArray2LongArray,23,3,2,0,4,1,2,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,SeedFactory,107,81,4,4,21,17,12,6,10,4
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,LongArray2Long,19,3,2,0,4,1,2,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,Long2LongArray,24,6,2,0,5,3,2,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,ProviderBuilder.RandomSourceInternal,2,318,1,1,1,60,1,6,0,6
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple.internal,ByteArray2IntArray,23,3,2,0,4,1,2,1,1,1
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple,JDKRandomBridge,67,0,2,0,17,0,6,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple,RandomSource,26,197,0,0,7,38,7,4,7,4
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/main/java,org.apache.commons.rng.simple,RandomSource.new UniformRandomProvider() {...},52,0,0,0,14,0,11,0,11,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple.internal,SeedFactoryTest,210,0,20,0,44,0,15,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple.internal,ByteArray2IntArrayTest,46,0,2,0,12,0,4,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple.internal,IntArray2LongArrayTest,33,0,0,0,9,0,3,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple.internal,ByteArray2LongArrayTest,46,0,2,0,12,0,4,0,3,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple,JDKRandomBridgeTest,208,0,16,0,55,0,12,0,4,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple,ProvidersList,417,0,4,0,34,0,7,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple,RandomSourceTest,87,0,8,0,23,0,9,0,5,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple,ProvidersCommonParametricTest.new Callable() {...},19,0,0,0,3,0,2,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple,ProvidersCommonParametricTest,721,0,34,0,134,0,31,0,14,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple,RandomAssert,194,0,24,0,33,0,14,0,2,0
+commons-rng-core (1) (17-Nov-2019 2:43:43 PM)/commons-rng-simple/src/test/java,org.apache.commons.rng.simple,ProvidersList.Data,50,0,2,0,9,0,6,0,5,0

@@ -1,0 +1,1912 @@
+
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Steve/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.7/58f588119ffd1702c77ccab6acb54bfb41bed8bd/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Steve/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+log4j: reset attribute= "false".
+log4j: Threshold ="null".
+log4j: Level value for root is  [INFO].
+log4j: root level set to INFO
+log4j: Class name: [org.apache.log4j.ConsoleAppender]
+log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+log4j: Setting property [conversionPattern] to [%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n].
+log4j: Adding appender named [console] to category [root].
+Refactorings at 1130baf18acfc09f544ab0ec75a04d0e9f0490a7
+2019-11-14 18:32:36 INFO  Processing \home\steve\Steve\git\commons-rng 1130baf18acfc09f544ab0ec75a04d0e9f0490a7 ...
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng 6216904ec0fec6e3ae07a3a678fc736cbedf95ce ...
+Refactorings at 6216904ec0fec6e3ae07a3a678fc736cbedf95ce
+Refactorings at 986ab303e1c81e37f7b8c1c8ab59e054a62c785f
+Refactorings at b45d6fb501d2d8cbd348f23e711ce3b078b579dc
+Refactorings at 35db222aff3f80b5930b059d4f78519dda8410f1
+Refactorings at f2586803ff67d776a48172d0ede13040c3a9500a
+Refactorings at c54506bd2859ae351b108e7b87494652812f9db8
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng c54506bd2859ae351b108e7b87494652812f9db8 ...
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng 8539ccbeda3d390390cfc57185cfc6d2f6d0ebee ...
+Refactorings at 8539ccbeda3d390390cfc57185cfc6d2f6d0ebee
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng 8539ccbeda3d390390cfc57185cfc6d2f6d0ebee ...
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng 74c2b58d321f1cd08e3a9b8f1911bada8008a319 ...
+Refactorings at 74c2b58d321f1cd08e3a9b8f1911bada8008a319
+Refactorings at 2f0a3e4ff4015475d0c3bf8945d655f80234244a
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng 74c2b58d321f1cd08e3a9b8f1911bada8008a319 ...
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng 4f92fa2b6db0f533810d3ec9efcd2f31d58dc041 ...
+Refactorings at 4f92fa2b6db0f533810d3ec9efcd2f31d58dc041
+Refactorings at b9a9d27085cde5e4153be8de581b4f5598aac676
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng b9a9d27085cde5e4153be8de581b4f5598aac676 ...
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng f5599152a715a987f36d7606ba3a967b7d297501 ...
+Refactorings at f5599152a715a987f36d7606ba3a967b7d297501
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng 2a31d8764facb77c8a3c301b0613078df8c93d13 ...
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng fa38dea519c49640c485299d47516f9fb3d51fde ...
+Refactorings at fa38dea519c49640c485299d47516f9fb3d51fde
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng fa38dea519c49640c485299d47516f9fb3d51fde ...
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng db751b911b56fecff1bce1ce33320e4308158c6a ...
+Refactorings at db751b911b56fecff1bce1ce33320e4308158c6a
+{
+	"type": "Extract Method",
+	"description": "Extract Method package getLambdaRaw() : double extracted from package getLambda() : int in class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler.LargeMeanPoissonSamplerState",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 158,
+		"endLine": 164,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "package getLambda() : int"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 163,
+		"endLine": 163,
+		"startColumn": 13,
+		"endColumn": 33,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 340,
+		"endLine": 345,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package getLambdaRaw() : double"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 344,
+		"endLine": 344,
+		"startColumn": 11,
+		"endColumn": 25,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 330,
+		"endLine": 338,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "package getLambda() : int"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 337,
+		"endLine": 337,
+		"startColumn": 26,
+		"endColumn": 40,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "getLambdaRaw()"
+}]
+}
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable state : LargeMeanPoissonSamplerState to state1 : LargeMeanPoissonSamplerState in method private testPoissonSamples(rng1 RestorableUniformRandomProvider, rng2 RestorableUniformRandomProvider, mean double) : void in class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSamplerTest",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSamplerTest.java",
+		"startLine": 144,
+		"endLine": 144,
+		"startColumn": 44,
+		"endColumn": 87,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "state : LargeMeanPoissonSamplerState"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSamplerTest.java",
+		"startLine": 135,
+		"endLine": 135,
+		"startColumn": 44,
+		"endColumn": 93,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "state1 : LargeMeanPoissonSamplerState"
+}]
+}
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng db751b911b56fecff1bce1ce33320e4308158c6a ...
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng b7723280bcaeb0ce9700d47cfc96b925d8a607cb ...
+Refactorings at b7723280bcaeb0ce9700d47cfc96b925d8a607cb
+2019-11-14 18:32:37 INFO  Processing \home\steve\Steve\git\commons-rng b7723280bcaeb0ce9700d47cfc96b925d8a607cb ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 120d275ed34b4d5b9a0729e788382ffa39d050ce ...
+Refactorings at 120d275ed34b4d5b9a0729e788382ffa39d050ce
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 21927cbc3005e5a7f3a45c527597a5733d735b4d ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng ef5470249ca404a28b7106d1a16ae768ad224cda ...
+Refactorings at ef5470249ca404a28b7106d1a16ae768ad224cda
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng ef5470249ca404a28b7106d1a16ae768ad224cda ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 1fc5030af5a30bf0d292f060a5c943d4233ef553 ...
+Refactorings at 1fc5030af5a30bf0d292f060a5c943d4233ef553
+Refactorings at ab5acabdc94cbd8414a1bb339db9543ef03325c8
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng ab5acabdc94cbd8414a1bb339db9543ef03325c8 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 65abc5dcfe4198b4244d4083d790ea870edbebe5 ...
+Refactorings at 65abc5dcfe4198b4244d4083d790ea870edbebe5
+{
+	"type": "Rename Method",
+	"description": "Rename Method public testMissingSetStateInternal() : void renamed to public testWrongStateSize() : void in class org.apache.commons.rng.core.BaseProviderTest",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/test/java/org/apache/commons/rng/core/BaseProviderTest.java",
+		"startLine": 36,
+		"endLine": 39,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testMissingSetStateInternal() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/test/java/org/apache/commons/rng/core/BaseProviderTest.java",
+		"startLine": 31,
+		"endLine": 34,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public testWrongStateSize() : void"
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.AbstractWell & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/AbstractWell.java",
+		"startLine": 73,
+		"endLine": 81,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/AbstractWell.java",
+		"startLine": 76,
+		"endLine": 76,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/AbstractWell.java",
+		"startLine": 74,
+		"endLine": 84,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/AbstractWell.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 28,
+		"endColumn": 69,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,(v.length + 1) * 4)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.ISAACRandom & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/ISAACRandom.java",
+		"startLine": 100,
+		"endLine": 113,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/ISAACRandom.java",
+		"startLine": 103,
+		"endLine": 103,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/ISAACRandom.java",
+		"startLine": 101,
+		"endLine": 116,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/ISAACRandom.java",
+		"startLine": 104,
+		"endLine": 104,
+		"startColumn": 28,
+		"endColumn": 69,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,(2 * SIZE + 4) * 4)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.KISSRandom & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/KISSRandom.java",
+		"startLine": 61,
+		"endLine": 72,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/KISSRandom.java",
+		"startLine": 64,
+		"endLine": 64,
+		"startColumn": 9,
+		"endColumn": 42,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/KISSRandom.java",
+		"startLine": 62,
+		"endLine": 74,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/KISSRandom.java",
+		"startLine": 65,
+		"endLine": 65,
+		"startColumn": 28,
+		"endColumn": 64,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,SEED_SIZE * 4)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.MersenneTwister & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MersenneTwister.java",
+		"startLine": 128,
+		"endLine": 136,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MersenneTwister.java",
+		"startLine": 131,
+		"endLine": 131,
+		"startColumn": 9,
+		"endColumn": 40,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MersenneTwister.java",
+		"startLine": 129,
+		"endLine": 139,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MersenneTwister.java",
+		"startLine": 132,
+		"endLine": 132,
+		"startColumn": 28,
+		"endColumn": 62,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,(N + 1) * 4)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.MultiplyWithCarry256 & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MultiplyWithCarry256.java",
+		"startLine": 71,
+		"endLine": 81,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MultiplyWithCarry256.java",
+		"startLine": 74,
+		"endLine": 74,
+		"startColumn": 9,
+		"endColumn": 48,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MultiplyWithCarry256.java",
+		"startLine": 72,
+		"endLine": 84,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source32/MultiplyWithCarry256.java",
+		"startLine": 75,
+		"endLine": 75,
+		"startColumn": 28,
+		"endColumn": 70,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,(SEED_SIZE + 1) * 4)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.MersenneTwister64 & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/MersenneTwister64.java",
+		"startLine": 108,
+		"endLine": 116,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/MersenneTwister64.java",
+		"startLine": 111,
+		"endLine": 111,
+		"startColumn": 9,
+		"endColumn": 41,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/MersenneTwister64.java",
+		"startLine": 109,
+		"endLine": 119,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/MersenneTwister64.java",
+		"startLine": 112,
+		"endLine": 112,
+		"startColumn": 28,
+		"endColumn": 63,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,(NN + 1) * 8)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.SplitMix64 & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/SplitMix64.java",
+		"startLine": 68,
+		"endLine": 74,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/SplitMix64.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 9,
+		"endColumn": 30,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/SplitMix64.java",
+		"startLine": 69,
+		"endLine": 76,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/SplitMix64.java",
+		"startLine": 72,
+		"endLine": 72,
+		"startColumn": 28,
+		"endColumn": 52,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,8)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.TwoCmres & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/TwoCmres.java",
+		"startLine": 125,
+		"endLine": 133,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/TwoCmres.java",
+		"startLine": 128,
+		"endLine": 128,
+		"startColumn": 9,
+		"endColumn": 31,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/TwoCmres.java",
+		"startLine": 126,
+		"endLine": 136,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/TwoCmres.java",
+		"startLine": 129,
+		"endLine": 129,
+		"startColumn": 28,
+		"endColumn": 53,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,16)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Extract And Move Method",
+	"description": "Extract And Move Method protected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.XorShift1024Star & moved to class org.apache.commons.rng.core.BaseProvider",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/XorShift1024Star.java",
+		"startLine": 61,
+		"endLine": 70,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/XorShift1024Star.java",
+		"startLine": 64,
+		"endLine": 64,
+		"startColumn": 9,
+		"endColumn": 48,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 119,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected splitStateInternal(state byte[], localStateLength int) : byte[][]"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/XorShift1024Star.java",
+		"startLine": 62,
+		"endLine": 72,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "protected setStateInternal(s byte[]) : void"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/XorShift1024Star.java",
+		"startLine": 65,
+		"endLine": 65,
+		"startColumn": 28,
+		"endColumn": 70,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "splitStateInternal(s,(SEED_SIZE + 1) * 8)"
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 147,
+		"endLine": 147,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 76,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/BaseProvider.java",
+		"startLine": 153,
+		"endLine": 153,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "RETURN_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 65abc5dcfe4198b4244d4083d790ea870edbebe5 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 95417156731c05b899e9eaba53e3a83c2576b86e ...
+Refactorings at 95417156731c05b899e9eaba53e3a83c2576b86e
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 95417156731c05b899e9eaba53e3a83c2576b86e ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng cf8e16eab302d24f53276d24e3cd44c827696b88 ...
+Refactorings at cf8e16eab302d24f53276d24e3cd44c827696b88
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng cf8e16eab302d24f53276d24e3cd44c827696b88 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng a535cacdc470c87228e9bb6c362d7b4a72219aa6 ...
+Refactorings at a535cacdc470c87228e9bb6c362d7b4a72219aa6
+Refactorings at ddfa94cbf8db4362f9f703000df12347fc794121
+Refactorings at f4a4aad571b2cf9975fffd588bac3be8fc9ef2c6
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng f4a4aad571b2cf9975fffd588bac3be8fc9ef2c6 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 350fb428eaf42a0ece8ebc59714201d590f6ff94 ...
+Refactorings at 350fb428eaf42a0ece8ebc59714201d590f6ff94
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 350fb428eaf42a0ece8ebc59714201d590f6ff94 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 8c927dc65dc5d86daa16304a83b033b25c43fd28 ...
+Refactorings at 8c927dc65dc5d86daa16304a83b033b25c43fd28
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 8c927dc65dc5d86daa16304a83b033b25c43fd28 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 0fdcd9007c708aa48f1989cb2211ea56c1fcd702 ...
+Refactorings at 0fdcd9007c708aa48f1989cb2211ea56c1fcd702
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 0fdcd9007c708aa48f1989cb2211ea56c1fcd702 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 91a5eec2d8a3318cf8fc8e6d222ac3edf3a0d969 ...
+Refactorings at 91a5eec2d8a3318cf8fc8e6d222ac3edf3a0d969
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng dd79e30df3192b4a20c6c5bcbeebe0d2d04cea5e ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 745af549050856e2d62e597aed98300f3193d0af ...
+Refactorings at 745af549050856e2d62e597aed98300f3193d0af
+Refactorings at fc3c1b984e7ea35695b59621e0bd2a330ab4fa11
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng fc3c1b984e7ea35695b59621e0bd2a330ab4fa11 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 5ae875293e0591db9248992343f3c030ea43079f ...
+Refactorings at 5ae875293e0591db9248992343f3c030ea43079f
+{
+	"type": "Extract Method",
+	"description": "Extract Method private swap(array int[], i int, j int) : void extracted from public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 93,
+		"endLine": 136,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 119,
+		"endLine": 119,
+		"startColumn": 17,
+		"endColumn": 47,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 121,
+		"endLine": 121,
+		"startColumn": 17,
+		"endColumn": 32,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 131,
+		"endLine": 142,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private swap(array int[], i int, j int) : void"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 139,
+		"endLine": 139,
+		"startColumn": 9,
+		"endColumn": 34,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 141,
+		"endLine": 141,
+		"startColumn": 9,
+		"endColumn": 24,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 95,
+		"endLine": 129,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 118,
+		"endLine": 118,
+		"startColumn": 17,
+		"endColumn": 50,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "swap(list,i,rng.nextInt(i + 1))"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 126,
+		"endLine": 126,
+		"startColumn": 17,
+		"endColumn": 66,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "swap(list,i,rng.nextInt(i - start + 1) + start)"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 140,
+		"endLine": 140,
+		"startColumn": 9,
+		"endColumn": 29,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Rename Parameter",
+	"description": "Rename Parameter list : int[] to array : int[] in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 108,
+		"endLine": 108,
+		"startColumn": 32,
+		"endColumn": 42,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "list : int[]"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 138,
+		"endLine": 138,
+		"startColumn": 30,
+		"endColumn": 41,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "array : int[]"
+}]
+}
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable temp : int to tmp : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 119,
+		"endLine": 119,
+		"startColumn": 27,
+		"endColumn": 46,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "temp : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 139,
+		"endLine": 139,
+		"startColumn": 19,
+		"endColumn": 33,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "tmp : int"
+}]
+}
+{
+	"type": "Parameterize Variable",
+	"description": "Parameterize Variable target : int to i : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 113,
+		"endLine": 113,
+		"startColumn": 27,
+		"endColumn": 33,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "target : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 138,
+		"endLine": 138,
+		"startColumn": 43,
+		"endColumn": 48,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "i : int"
+}]
+}
+{
+	"type": "Parameterize Variable",
+	"description": "Parameterize Variable i : int to j : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 112,
+		"endLine": 112,
+		"startColumn": 22,
+		"endColumn": 27,
+		"codeElementType": "VARIABLE_DECLARATION_EXPRESSION",
+		"description": "original variable declaration",
+		"codeElement": "i : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 138,
+		"endLine": 138,
+		"startColumn": 50,
+		"endColumn": 55,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "j : int"
+}]
+}
+{
+	"type": "Extract Method",
+	"description": "Extract Method private swap(array int[], i int, j int) : void extracted from public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 93,
+		"endLine": 136,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 131,
+		"endLine": 131,
+		"startColumn": 17,
+		"endColumn": 47,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 133,
+		"endLine": 133,
+		"startColumn": 17,
+		"endColumn": 32,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 131,
+		"endLine": 142,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private swap(array int[], i int, j int) : void"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 139,
+		"endLine": 139,
+		"startColumn": 9,
+		"endColumn": 34,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 141,
+		"endLine": 141,
+		"startColumn": 9,
+		"endColumn": 24,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 95,
+		"endLine": 129,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 118,
+		"endLine": 118,
+		"startColumn": 17,
+		"endColumn": 50,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "swap(list,i,rng.nextInt(i + 1))"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 126,
+		"endLine": 126,
+		"startColumn": 17,
+		"endColumn": 66,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "swap(list,i,rng.nextInt(i - start + 1) + start)"
+}, {
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 140,
+		"endLine": 140,
+		"startColumn": 9,
+		"endColumn": 29,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Rename Variable",
+	"description": "Rename Variable temp : int to tmp : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 131,
+		"endLine": 131,
+		"startColumn": 27,
+		"endColumn": 46,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "temp : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 139,
+		"endLine": 139,
+		"startColumn": 19,
+		"endColumn": 33,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "renamed variable declaration",
+		"codeElement": "tmp : int"
+}]
+}
+{
+	"type": "Parameterize Variable",
+	"description": "Parameterize Variable target : int to i : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 125,
+		"endLine": 125,
+		"startColumn": 27,
+		"endColumn": 33,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "target : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 138,
+		"endLine": 138,
+		"startColumn": 43,
+		"endColumn": 48,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "i : int"
+}]
+}
+{
+	"type": "Parameterize Variable",
+	"description": "Parameterize Variable i : int to j : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 124,
+		"endLine": 124,
+		"startColumn": 22,
+		"endColumn": 41,
+		"codeElementType": "VARIABLE_DECLARATION_EXPRESSION",
+		"description": "original variable declaration",
+		"codeElement": "i : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 138,
+		"endLine": 138,
+		"startColumn": 50,
+		"endColumn": 55,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "j : int"
+}]
+}
+Refactorings at cd55a9efc337b058438791dc49d7ac0a3e75dfda
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 0fdcd9007c708aa48f1989cb2211ea56c1fcd702 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 6dca4630fb4df34eb5e106dfbbe66bff271526ee ...
+Refactorings at 6dca4630fb4df34eb5e106dfbbe66bff271526ee
+Refactorings at bf5028e2081ebe936dba9adb29e9d0f00053386f
+Refactorings at 974b86453c986b2564afe8f1b58d5dec820e574a
+Refactorings at 37638f12138b493f907566bac2d1ab6221158bfd
+Refactorings at 17ddb9f3376a1cc2e798246fedcf73320902354c
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 974b86453c986b2564afe8f1b58d5dec820e574a ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 8626198d63246da1ca198b4645ddbc99a83c87e8 ...
+Refactorings at 8626198d63246da1ca198b4645ddbc99a83c87e8
+Refactorings at a44218d984221194cb3ad0583e63fbc4c9461c5b
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng a44218d984221194cb3ad0583e63fbc4c9461c5b ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng ff9f77656fc0e15c60b70b1afbb2816d7636f3d6 ...
+Refactorings at ff9f77656fc0e15c60b70b1afbb2816d7636f3d6
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 1bbf43bbc2d324ef0208f576e20cad80651bd84b ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae ...
+Refactorings at 42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae
+{
+	"type": "Extract Method",
+	"description": "Extract Method private runSampleChiSquareTest(n int, k int, p int[][]) : void extracted from public testSampleChiSquareTest() : void in class org.apache.commons.rng.sampling.PermutationSamplerTest",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 58,
+		"endLine": 77,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration before extraction",
+		"codeElement": "public testSampleChiSquareTest() : void"
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 9,
+		"endColumn": 34,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 64,
+		"endLine": 64,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 66,
+		"endLine": 66,
+		"startColumn": 9,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 67,
+		"endLine": 67,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 68,
+		"endLine": 68,
+		"startColumn": 9,
+		"endColumn": 44,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 72,
+		"endLine": 72,
+		"startColumn": 13,
+		"endColumn": 55,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 76,
+		"endLine": 76,
+		"startColumn": 9,
+		"endColumn": 84,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 65,
+		"endLine": 65,
+		"startColumn": 9,
+		"endColumn": 37,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 71,
+		"endLine": 73,
+		"startColumn": 46,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 71,
+		"endLine": 73,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "FOR_STATEMENT",
+		"description": "extracted code from source method declaration",
+		"codeElement": null
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 191,
+		"endLine": 208,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private runSampleChiSquareTest(n int, k int, p int[][]) : void"
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 194,
+		"endLine": 194,
+		"startColumn": 9,
+		"endColumn": 34,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 195,
+		"endLine": 195,
+		"startColumn": 9,
+		"endColumn": 47,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 197,
+		"endLine": 197,
+		"startColumn": 9,
+		"endColumn": 62,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 198,
+		"endLine": 198,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 199,
+		"endLine": 199,
+		"startColumn": 9,
+		"endColumn": 44,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 203,
+		"endLine": 203,
+		"startColumn": 13,
+		"endColumn": 55,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 207,
+		"endLine": 207,
+		"startColumn": 9,
+		"endColumn": 84,
+		"codeElementType": "EXPRESSION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 196,
+		"endLine": 196,
+		"startColumn": 9,
+		"endColumn": 37,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 202,
+		"endLine": 204,
+		"startColumn": 46,
+		"endColumn": 10,
+		"codeElementType": "BLOCK",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 202,
+		"endLine": 204,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "FOR_STATEMENT",
+		"description": "extracted code to extracted method declaration",
+		"codeElement": null
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 53,
+		"endLine": 61,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "source method declaration after extraction",
+		"codeElement": "public testSampleChiSquareTest() : void"
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 60,
+		"endLine": 60,
+		"startColumn": 9,
+		"endColumn": 40,
+		"codeElementType": "METHOD_INVOCATION",
+		"description": "extracted method invocation",
+		"codeElement": "runSampleChiSquareTest(n,k,p)"
+}, {
+		"filePath": "commons-rng-sampling/src/test/java/org/apache/commons/rng/sampling/PermutationSamplerTest.java",
+		"startLine": 201,
+		"endLine": 201,
+		"startColumn": 9,
+		"endColumn": 78,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "added statement in extracted method declaration",
+		"codeElement": null
+}]
+}
+{
+	"type": "Move Method",
+	"description": "Move Method private swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.CombinationSampler to package swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.SubsetSamplerUtils",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/CombinationSampler.java",
+		"startLine": 137,
+		"endLine": 148,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private swap(array int[], i int, j int) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/SubsetSamplerUtils.java",
+		"startLine": 84,
+		"endLine": 95,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "package swap(array int[], i int, j int) : void"
+}]
+}
+{
+	"type": "Move Method",
+	"description": "Move Method private swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.PermutationSampler to package swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.SubsetSamplerUtils",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/PermutationSampler.java",
+		"startLine": 131,
+		"endLine": 142,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private swap(array int[], i int, j int) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/SubsetSamplerUtils.java",
+		"startLine": 84,
+		"endLine": 95,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "package swap(array int[], i int, j int) : void"
+}]
+}
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 584ddc4b98559c070f4dc3136d214ea168dd2f34 ...
+Refactorings at 584ddc4b98559c070f4dc3136d214ea168dd2f34
+Refactorings at 23a1652c8e6adbbbabb855b1500bfc48cde028f7
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng 23a1652c8e6adbbbabb855b1500bfc48cde028f7 ...
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng a39c3a97a41c8705133bd19373f573a634b12125 ...
+Refactorings at a39c3a97a41c8705133bd19373f573a634b12125
+Refactorings at 18dbee6fd8f86b821a61a6ae4b4d411d4e29a4cc
+Refactorings at a983f303404a8224050e73b448bcf15d8888f2c0
+Refactorings at 35435bf440964cae339cf6828c40b3006ea21627
+Refactorings at 7b1262668a0cd6d03614902c0de6bd1f18c8626a
+Refactorings at 071e7067e2ae5b577ff6f6e7e2a246470f8f32eb
+Refactorings at a01a55a3ce837a2275c3558c16c34b4d6e0b1f65
+Refactorings at 8c2801c042264787d3e4281e07cedcfe425b1449
+Refactorings at 741301589c8e179396798fc185b27f3bfcc3f375
+Refactorings at ae49cc970780be54f9a8c19415b196e53b04c437
+Refactorings at 0c8758fa9b40b8456b82988671c8e24842b2ccb1
+Refactorings at a540c18df332191474cf5cedb3ed10b97b39d9eb
+2019-11-14 18:32:38 INFO  Processing \home\steve\Steve\git\commons-rng a540c18df332191474cf5cedb3ed10b97b39d9eb ...
+2019-11-14 18:32:39 INFO  Processing \home\steve\Steve\git\commons-rng 1d3d70b00968eb1e59d9fe4cba3fd376a7f5a44a ...
+Refactorings at 1d3d70b00968eb1e59d9fe4cba3fd376a7f5a44a
+Refactorings at 4b9f96e55bd19bde50e4b1626deea1d29452b97b
+Refactorings at b2962029ab9c2929974a83a9a74bf1afea5d9cda
+Refactorings at 3604295fffb253acc02ddde12e77d309f66c7f06
+Refactorings at 3fd55ea6481c3cee14529b025c4480bcce169aa1
+Refactorings at 2b7c6e54bcdbb868d8d9719ca96784330f7f8d0e
+Refactorings at e736acd727e6d81bd986470678f6f96ce3ba74d1
+Refactorings at f73cd6c322b953bc43729a33e601b1f83113cf46
+Refactorings at 0d6d0494d5825b8efc06e1e9ba6f2ff1e75c8fe9
+Refactorings at ed941b688bcef04256aff7dce03a34eadd5e786f
+Refactorings at 3ca48892811538e911eb3c5bafd60b4d9ca92483
+2019-11-14 18:32:39 INFO  Analyzed commons-rng [Commits: 68, Errors: 0, Refactorings: 24]

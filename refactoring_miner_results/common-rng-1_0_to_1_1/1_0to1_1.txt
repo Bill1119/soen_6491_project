@@ -1,0 +1,996 @@
+Refactorings at 369e1651039dd89d9578497d2194dedd2d85ae05
+Refactorings at 600439d4b40dd7243efd9881ec3d730e67f37e9d
+Refactorings at 37af1737513ab1ac932a6e66dc49f619211e4db1
+Refactorings at 317105c0b95269869d0b6f6ba114ab7ddce83ded
+Refactorings at 62392506c36ae0f88a596fb1d94f62625173b9af
+Refactorings at aa703c054aa8361e442596d99d6d4e962bd6bb17
+Refactorings at 183c3956ac439b478a7fa76f16d164e5acdc22c4
+Refactorings at 05dc30a316a0efcdab1def7c6be896ab3510ae68
+Refactorings at 1228f40a75d70bb73fd9dc999358f789b099db9d
+Refactorings at 98bc818234663359468bfd5eb8a75eec13a7e9ce
+Refactorings at c903bd873f1e15ffce0cfdb0d6e397cd1792cf48
+Refactorings at 5fe67ba767e88799a6030b6b1eb10359aea7e42f
+Refactorings at b32ed21bf3eed7ae9300dcf4a025c9bdc37141a6
+Refactorings at 070cbc0d0ea3da8a875c3b63c9edddf3d0a33d1b
+Refactorings at 70e9c1655ffd9544a56dc29d12d16caf5d589407
+Refactorings at 11e5e8d562c6a317f7f8f3492bcfbee011395feb
+Refactorings at c6da1a9f2634a0b68ddd5cf8a2b61551ca5dbbf0
+Refactorings at 8c791b51643981ee9b93952a7773a667a9b00c19
+Refactorings at 9839181a2c81130cdc77f58a02f861674f46ff3d
+Refactorings at 36752e6568d7d9558430c54f24c117bd6910dc4d
+Refactorings at 0c90e4dd8995cb35591158a3f88d88133130e84a
+Refactorings at 94148ca947f8f6ae80500f77df2cc0614d980020
+Refactorings at 610747de60200b0e037cd15a556c0ccafdee113f
+Refactorings at 0e7680b44cf430caaa1b9acb2dc6d3acd9ee7715
+Refactorings at b2dd661df43ee5d65e21eb0134a8397d871c5a9e
+Refactorings at 72bf01f5fe930717884914220fc57cecb05fb435
+Refactorings at cf65f676ccafdf5265e0069eb1eccf1c2a973cfc
+Refactorings at 8b4a5ec2c9e88846c34fd73567c093c702be1500
+Refactorings at 82476dfcdf97ea7181b4d1939e9f559443801d2b
+Refactorings at 3b4b798f7e344774f3f3c4f4abbf8fb2242fd9e8
+Refactorings at 94f084324a99f4f84464ad3b5574a84adc1028e9
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type gaussian : BoxMullerGaussianSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AhrensDieterMarsagliaTsangGammaSampler.java",
+		"startLine": 50,
+		"endLine": 50,
+		"startColumn": 44,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gaussian : BoxMullerGaussianSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AhrensDieterMarsagliaTsangGammaSampler.java",
+		"startLine": 50,
+		"endLine": 50,
+		"startColumn": 45,
+		"endColumn": 53,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "gaussian : NormalizedGaussianSampler"
+}]
+}
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type gaussian : BoxMullerGaussianSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.BoxMullerLogNormalSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/BoxMullerLogNormalSampler.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 44,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gaussian : BoxMullerGaussianSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/BoxMullerLogNormalSampler.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 45,
+		"endColumn": 53,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "gaussian : NormalizedGaussianSampler"
+}]
+}
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type gaussian : ContinuousSampler to gaussian : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.distribution.PoissonSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 49,
+		"endLine": 49,
+		"startColumn": 37,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "gaussian : ContinuousSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 49,
+		"endLine": 49,
+		"startColumn": 45,
+		"endColumn": 53,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "gaussian : NormalizedGaussianSampler"
+}]
+}
+Refactorings at c14e09caa4161dc7cdbaa9fae3dbbd3cf02b70e3
+Refactorings at baee35dbbe9ad48da2b2c6261364d9b1952227af
+Refactorings at 99db6cedc853d3a9b13d7cc3ff7ef2cb35ceccd6
+Refactorings at 31dba790c02f59a6c19c84a35cdd21c773f04505
+Refactorings at 23fdd63dbc057af14f8cb9a2b8d40648ce4ef671
+Refactorings at cd7ebb455accdbc2ce7437d90d252c9c20ddfc1e
+Refactorings at 688f3611131e05a072d998edb93e13492c3ed256
+Refactorings at 325d4d9d24f4417f0b5205553961a5c76cd08d91
+Refactorings at 14345928b03dcb4e5543de666e2277b8251db1c6
+Refactorings at 44ce45b3186951b5edd74c089a1272043611ce4f
+Refactorings at 805ac042509471711dedf171ed829b8325a23010
+Refactorings at 4ef78f53b61eb5df545751da8d3895a3206c1b5a
+{
+	"type": "Rename Class",
+	"description": "Rename Class org.apache.commons.rng.sampling.distribution.BoxMullerWithRejectionNormalizedGaussianSampler renamed to org.apache.commons.rng.sampling.distribution.MarsagliaNormalizedGaussianSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/BoxMullerWithRejectionNormalizedGaussianSampler.java",
+		"startLine": 21,
+		"endLine": 88,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.sampling.distribution.BoxMullerWithRejectionNormalizedGaussianSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/MarsagliaNormalizedGaussianSampler.java",
+		"startLine": 21,
+		"endLine": 87,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "renamed type declaration",
+		"codeElement": "org.apache.commons.rng.sampling.distribution.MarsagliaNormalizedGaussianSampler"
+}]
+}
+Refactorings at e591a65643c1383fd72033df6725de3ae7e2b27c
+Refactorings at b1b44a5ce686c4b19b6c642fe38c24b9f33d5805
+Refactorings at 2964c6ae66314994d2c1452b378661b5995f7fcb
+{
+	"type": "Rename Method",
+	"description": "Rename Method public runBoxMullerWithRejectionNormalizedGaussianSampler(sources Sources, bh Blackhole) : void renamed to public runMarsagliaNormalizedGaussianSampler(sources Sources, bh Blackhole) : void in class org.apache.commons.rng.jmh.distribution.SamplersPerformance",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-jmh/src/main/java/org/apache/commons/rng/jmh/distribution/SamplersPerformance.java",
+		"startLine": 155,
+		"endLine": 163,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public runBoxMullerWithRejectionNormalizedGaussianSampler(sources Sources, bh Blackhole) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-jmh/src/main/java/org/apache/commons/rng/jmh/distribution/SamplersPerformance.java",
+		"startLine": 155,
+		"endLine": 163,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "public runMarsagliaNormalizedGaussianSampler(sources Sources, bh Blackhole) : void"
+}]
+}
+Refactorings at c015ba72683dffba90ac9fe61df2e04a3e8ea93e
+Refactorings at 6c8e3cbf96d31e3be3616de5be28aa21d390b098
+Refactorings at c1a2b82b78451f5be96c700cec5d43444a32a24f
+Refactorings at 4494588190d5fc8f84e93b79ba81780f6d91eefd
+Refactorings at fecc649fa5b73f48d49a40b1ed75343565fe3d65
+Refactorings at 1bb529778339d7ffd57b7f440a2b093929669e9c
+Refactorings at 3c8b5a2baeec7930bf7c46cc9b567771377cd9a9
+Refactorings at b23f09d2f75d10348eed19d046cc2700d0f1698c
+Refactorings at acb61071ae681732a5d70e6d2587dc95a6eb64d4
+Refactorings at dcc68f2feab7ac31b5771a15107864d0354d40a4
+Refactorings at eba39aae3a3eee0a053a77b46b917d18bcc1f606
+Refactorings at b8fa4766c710d9e57fb866180dd17180d192bb70
+Refactorings at 22b5422cf5852f5dd5bf0427f7f6ec3c9c70230c
+Refactorings at 60cd84fbd564917d6bfb86e9c22470d73393189a
+Refactorings at 83ab92fcc765a15cb6de07f5706032aa55bc354e
+Refactorings at 8f06e1482b837c0f0066e41f11cce58e78e2c5a2
+Refactorings at d38b8e7029c384d27ff1dc9d4e0ec2a0284667c5
+Refactorings at a214ae3cb438510154f3b138b7e7fc284ce7d898
+Refactorings at 77a3d8b17783c761b1ad2aaa655207311c434239
+Refactorings at 2baae6cf4c3cd3673232530b0fbb71d6e31e48b3
+Refactorings at 8d216eb2dcfe697d4781c4d04d3c378766ad0429
+{
+	"type": "Rename Class",
+	"description": "Rename Class org.apache.commons.rng.sampling.distribution.ZigguratGaussianSampler renamed to org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratGaussianSampler.java",
+		"startLine": 22,
+		"endLine": 157,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.sampling.distribution.ZigguratGaussianSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 22,
+		"endLine": 156,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "renamed type declaration",
+		"codeElement": "org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler"
+}]
+}
+Refactorings at b13831adaf636070eae2b43b2de92255f1ab3f8b
+Refactorings at 070ff4ad8b14e009f75e7bfdfe4e4c7c1cc6e277
+Refactorings at 3cec661a4a763ed06d41019051910dd78db6afc9
+Refactorings at 5b88619b732e0d556e61a48b8fbb8d628bf16ea8
+Refactorings at 3b3f19beb89ef86b9fb0a8f98684054687100793
+Refactorings at 75c7e43c7ea98ca710713c53d0506aad0da9cc42
+{
+	"type": "Change Parameter Type",
+	"description": "Change Parameter Type hz : int to hz : long in method private fix(hz long, iz int) : double in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 110,
+		"endLine": 110,
+		"startColumn": 25,
+		"endColumn": 31,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "original variable declaration",
+		"codeElement": "hz : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 119,
+		"endLine": 119,
+		"startColumn": 24,
+		"endColumn": 31,
+		"codeElementType": "SINGLE_VARIABLE_DECLARATION",
+		"description": "changed-type variable declaration",
+		"codeElement": "hz : long"
+}]
+}
+{
+	"type": "Rename Method",
+	"description": "Rename Method private nfix(hz int, iz int) : double renamed to private fix(hz long, iz int) : double in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 103,
+		"endLine": 142,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private nfix(hz int, iz int) : double"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 112,
+		"endLine": 148,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "renamed method declaration",
+		"codeElement": "private fix(hz long, iz int) : double"
+}]
+}
+{
+	"type": "Change Variable Type",
+	"description": "Change Variable Type j : int to j : long in method public sample() : double in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 98,
+		"endLine": 98,
+		"startColumn": 19,
+		"endColumn": 32,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "j : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 97,
+		"endLine": 97,
+		"startColumn": 20,
+		"endColumn": 34,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "changed-type variable declaration",
+		"codeElement": "j : long"
+}]
+}
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute WN : double[] to W : double[] in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 35,
+		"endColumn": 55,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "WN : double[]"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 35,
+		"endColumn": 54,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "W : double[]"
+}]
+}
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute KN : int[] to K : long[] in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 44,
+		"endLine": 44,
+		"startColumn": 32,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "KN : int[]"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 51,
+		"endLine": 51,
+		"startColumn": 33,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "K : long[]"
+}]
+}
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type KN : int[] to K : long[] in class org.apache.commons.rng.sampling.distribution.ZigguratNormalizedGaussianSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 44,
+		"endLine": 44,
+		"startColumn": 32,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "KN : int[]"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/ZigguratNormalizedGaussianSampler.java",
+		"startLine": 51,
+		"endLine": 51,
+		"startColumn": 33,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "K : long[]"
+}]
+}
+Refactorings at 82148f7da16724cf455a650cb64bab982908e822
+Refactorings at 0a3149e250e414983652544abee3fd86b74c9efe
+Refactorings at 6cc21c16d7e6c727048728dde0f8435cc7966f76
+Refactorings at 07f4a12774e43290a5aa97b050c884940c290dd8
+Refactorings at ffab27c524b18b117a3fdeb1aa1f31a1fa1688b7
+Refactorings at ebb7c9839d1dba0a6815f8401b46810d5caef487
+Refactorings at 93e35b69d003959610d88ece2d263f5683e5867c
+Refactorings at bb10e98328a04a65851a77f801760bf913314bab
+Refactorings at 7583d9e2cb2adf378acd31ddc9ba0d1208f9686d
+Refactorings at adcf0c578c662598c330dbba0359104dd151235e
+Refactorings at c76bd300351e1e6e2a15a1ae2b1015a1b979d679
+Refactorings at cc9aeef3fdf7efa58d66f66136b7c8a64141b366
+Refactorings at 7467b1d83bb35b040009b91ec09289bdbea0363f
+Refactorings at 4d83aacba2a5aa3fd09b9ed3037202a483a16146
+Refactorings at fc01a96a5dd4364c81c46203e13fb19f73c675cd
+Refactorings at 5de2d1af79fabca56b5fa8fca159938fa023ae6a
+Refactorings at a51f23f26bffdfb1f2c573f7aaa8ab87173229c7
+Refactorings at d1105853ea4bdb5a330b6b697a96900c77f50dff
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type sampler : MarsagliaNormalizedGaussianSampler to sampler : NormalizedGaussianSampler in class org.apache.commons.rng.sampling.UnitSphereSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/UnitSphereSampler.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 54,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "sampler : MarsagliaNormalizedGaussianSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/UnitSphereSampler.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 45,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "sampler : NormalizedGaussianSampler"
+}]
+}
+Refactorings at 84acbf3622092055c2caa9bdb9485a543114e13d
+Refactorings at cb807a1afc44feacb580f5ec1d0e4a16cc7e7396
+Refactorings at daf0f7b0d3e0fa33d13743d35ddee18fca7b2bf6
+{
+	"type": "Replace Variable With Attribute",
+	"description": "Replace Variable With Attribute bGS : double to bGSOptim : double in method public sample() : double in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AhrensDieterMarsagliaTsangGammaSampler.java",
+		"startLine": 75,
+		"endLine": 75,
+		"startColumn": 30,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "bGS : double"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AhrensDieterMarsagliaTsangGammaSampler.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 26,
+		"endColumn": 34,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "bGSOptim : double"
+}]
+}
+{
+	"type": "Replace Variable With Attribute",
+	"description": "Replace Variable With Attribute d : double to dOptim : double in method public sample() : double in class org.apache.commons.rng.sampling.distribution.AhrensDieterMarsagliaTsangGammaSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AhrensDieterMarsagliaTsangGammaSampler.java",
+		"startLine": 108,
+		"endLine": 108,
+		"startColumn": 22,
+		"endColumn": 54,
+		"codeElementType": "VARIABLE_DECLARATION_STATEMENT",
+		"description": "original variable declaration",
+		"codeElement": "d : double"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/AhrensDieterMarsagliaTsangGammaSampler.java",
+		"startLine": 56,
+		"endLine": 56,
+		"startColumn": 26,
+		"endColumn": 32,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed variable declaration",
+		"codeElement": "dOptim : double"
+}]
+}
+Refactorings at 01a2c09ce1d475fcedbdb06d7c2e3311e9222aca
+Refactorings at 6ec1d323e1747152411fa0d52128614bc8ea0f30
+Refactorings at 71f4e2cd252b90bb2ab617b4480fd3f73acc8a63
+Refactorings at b00cdf1c3b4c51cdd1e4664160849a338a721cba
+Refactorings at 6ee82f10037d8bbaebb77ad60d0c86ae6d802cd3
+Refactorings at 8714ca78974bed5d629dfc5868a3a66d23b6b794
+Refactorings at 31045880c65570d0fc4ef132f6b3959f1ce20d6a
+Refactorings at fabe30650158d06a32dbdaaea9dbed58f2ac0222
+Refactorings at 5d03f98768ab6a7d035d204c6b1f490e072857a5
+Refactorings at a242b59f78d93940e010514df2b43cf1a66df34a
+Refactorings at da6512c759f863c65b1c3e44b60d41f636b0812d
+Refactorings at 9672beba878dbc70549752b481601031f95c1c84
+Refactorings at 8fbd77d68c663cfae59f231e987a863a3f4add0f
+Refactorings at 5f1bb030f8b3c4efc50cf714d7f84bff376f71e6
+Refactorings at cb5f147e5b8305ad6a154d7063ea83e8702e0a11
+Refactorings at 90ec4b134442e00e9a033982eadf11e9a37e33a4
+Refactorings at 8de0c3657a8d69992634092fdb51437a70b5dc43
+Refactorings at 0761c7c03a38be60956309a9cd59034de7aac88a
+Refactorings at b28f668eea841289020cb89bcae1bd84151100ab
+Refactorings at 07431135cb65f3e5a20127d3f15c027162d39b7c
+Refactorings at 2fa1dd8e991abdb0c6616ed36b5d72ed47ed0a94
+Refactorings at 2a82db1c563cd27b6ae812cb7375c51d24de8420
+Refactorings at 53649388dd090fc88b0439aff78fc94f144e4d80
+Refactorings at 2fdb5227f2d3dcf3ead63dcc369b96447c7a0316
+{
+	"type": "Change Package",
+	"description": "Change Package org.apache.commons.rng.examples.integration to org.apache.commons.rng.examples.quadrature",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-examples/src/main/java/org/apache/commons/rng/examples/integration/ComputePi.java",
+		"startLine": 21,
+		"endLine": 91,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.integration.ComputePi"
+}, {
+		"filePath": "commons-rng-examples/src/main/java/org/apache/commons/rng/examples/integration/MonteCarloIntegration.java",
+		"startLine": 23,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.integration.MonteCarloIntegration"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-quadrature/src/main/java/org/apache/commons/rng/examples/quadrature/ComputePi.java",
+		"startLine": 21,
+		"endLine": 91,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.quadrature.ComputePi"
+}, {
+		"filePath": "commons-rng-examples/examples-quadrature/src/main/java/org/apache/commons/rng/examples/quadrature/MonteCarloIntegration.java",
+		"startLine": 23,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.quadrature.MonteCarloIntegration"
+}]
+}
+{
+	"type": "Move Class",
+	"description": "Move Class org.apache.commons.rng.examples.integration.ComputePi moved to org.apache.commons.rng.examples.quadrature.ComputePi",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-examples/src/main/java/org/apache/commons/rng/examples/integration/ComputePi.java",
+		"startLine": 21,
+		"endLine": 91,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.integration.ComputePi"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-quadrature/src/main/java/org/apache/commons/rng/examples/quadrature/ComputePi.java",
+		"startLine": 21,
+		"endLine": 91,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.quadrature.ComputePi"
+}]
+}
+{
+	"type": "Move Class",
+	"description": "Move Class org.apache.commons.rng.examples.integration.MonteCarloIntegration moved to org.apache.commons.rng.examples.quadrature.MonteCarloIntegration",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-examples/src/main/java/org/apache/commons/rng/examples/integration/MonteCarloIntegration.java",
+		"startLine": 23,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.integration.MonteCarloIntegration"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-quadrature/src/main/java/org/apache/commons/rng/examples/quadrature/MonteCarloIntegration.java",
+		"startLine": 23,
+		"endLine": 90,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.quadrature.MonteCarloIntegration"
+}]
+}
+{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder commons-rng-examples to commons-rng-examples/examples-sampling",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-examples/src/main/java/org/apache/commons/rng/examples/sampling/ProbabilityDensityApproximation.java",
+		"startLine": 36,
+		"endLine": 200,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.sampling.ProbabilityDensityApproximation"
+}, {
+		"filePath": "commons-rng-examples/src/main/java/org/apache/commons/rng/examples/sampling/UniformSamplingVisualCheck.java",
+		"startLine": 27,
+		"endLine": 81,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.sampling.UniformSamplingVisualCheck"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-sampling/src/main/java/org/apache/commons/rng/examples/sampling/ProbabilityDensityApproximation.java",
+		"startLine": 36,
+		"endLine": 200,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.sampling.ProbabilityDensityApproximation"
+}, {
+		"filePath": "commons-rng-examples/examples-sampling/src/main/java/org/apache/commons/rng/examples/sampling/UniformSamplingVisualCheck.java",
+		"startLine": 27,
+		"endLine": 81,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.sampling.UniformSamplingVisualCheck"
+}]
+}
+{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder commons-rng-examples to commons-rng-examples/examples-stress",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-examples/src/main/java/org/apache/commons/rng/examples/stress/GeneratorsList.java",
+		"startLine": 26,
+		"endLine": 59,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.stress.GeneratorsList"
+}, {
+		"filePath": "commons-rng-examples/src/main/java/org/apache/commons/rng/examples/stress/RandomStressTester.java",
+		"startLine": 34,
+		"endLine": 292,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.stress.RandomStressTester"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/GeneratorsList.java",
+		"startLine": 26,
+		"endLine": 59,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.stress.GeneratorsList"
+}, {
+		"filePath": "commons-rng-examples/examples-stress/src/main/java/org/apache/commons/rng/examples/stress/RandomStressTester.java",
+		"startLine": 34,
+		"endLine": 292,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.stress.RandomStressTester"
+}]
+}
+Refactorings at 312abc0ea3db9a6e16d92799c3329a65baef0dbd
+{
+	"type": "Move Class",
+	"description": "Move Class org.apache.commons.rng.jmh.GenerationPerformance moved to org.apache.commons.rng.examples.jmh.GenerationPerformance",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-jmh/src/main/java/org/apache/commons/rng/jmh/GenerationPerformance.java",
+		"startLine": 37,
+		"endLine": 194,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.jmh.GenerationPerformance"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/jmh/GenerationPerformance.java",
+		"startLine": 37,
+		"endLine": 194,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.GenerationPerformance"
+}]
+}
+{
+	"type": "Move Class",
+	"description": "Move Class org.apache.commons.rng.jmh.distribution.NextGaussianPerformance moved to org.apache.commons.rng.examples.jmh.distribution.NextGaussianPerformance",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-jmh/src/main/java/org/apache/commons/rng/jmh/distribution/NextGaussianPerformance.java",
+		"startLine": 33,
+		"endLine": 68,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.jmh.distribution.NextGaussianPerformance"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/jmh/distribution/NextGaussianPerformance.java",
+		"startLine": 33,
+		"endLine": 68,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.distribution.NextGaussianPerformance"
+}]
+}
+{
+	"type": "Move Class",
+	"description": "Move Class org.apache.commons.rng.jmh.distribution.SamplersPerformance moved to org.apache.commons.rng.examples.jmh.distribution.SamplersPerformance",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-jmh/src/main/java/org/apache/commons/rng/jmh/distribution/SamplersPerformance.java",
+		"startLine": 50,
+		"endLine": 264,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.jmh.distribution.SamplersPerformance"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/jmh/distribution/SamplersPerformance.java",
+		"startLine": 50,
+		"endLine": 264,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.distribution.SamplersPerformance"
+}]
+}
+Refactorings at 1ebe6a80828f7ba42814e8530a04692c3e9a29da
+Refactorings at ba29eb0e69ae8aefba82696813491b82a960f829
+Refactorings at a960ee1d67e5d813c1da77bb0ed269eaccc63d4c
+Refactorings at e8537efb9ebc9f70fc33e09904e0f43c35e167d4
+Refactorings at 07f8597d286fb2a3946b8fd11906eeab08f30041
+Refactorings at 4424bf93dbd715f2bf5528d201c8e55023c4a591
+Refactorings at 857cbb05c86defd0c852837ad0eb5c5ab3faa9b5
+Refactorings at 20f33fb6b43d83176cef0c568ad35b851c5e239d
+{
+	"type": "Move Source Folder",
+	"description": "Move Source Folder commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng to commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/jmh/GenerationPerformance.java",
+		"startLine": 37,
+		"endLine": 194,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.GenerationPerformance"
+}, {
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/jmh/distribution/NextGaussianPerformance.java",
+		"startLine": 33,
+		"endLine": 68,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.distribution.NextGaussianPerformance"
+}, {
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/jmh/distribution/SamplersPerformance.java",
+		"startLine": 50,
+		"endLine": 264,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.distribution.SamplersPerformance"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/GenerationPerformance.java",
+		"startLine": 37,
+		"endLine": 194,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.GenerationPerformance"
+}, {
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/distribution/NextGaussianPerformance.java",
+		"startLine": 33,
+		"endLine": 68,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.distribution.NextGaussianPerformance"
+}, {
+		"filePath": "commons-rng-examples/examples-jmh/src/main/java/org/apache/commons/rng/examples/jmh/distribution/SamplersPerformance.java",
+		"startLine": 50,
+		"endLine": 264,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "moved type declaration",
+		"codeElement": "org.apache.commons.rng.examples.jmh.distribution.SamplersPerformance"
+}]
+}
+Refactorings at d90f97de87b380f7b3d45d409f6ccf4eced09e32
+Refactorings at 22ca66d5b0cb54e587de2dd8456e1ef8f87dbd44
+Refactorings at 8d8638bf315dbe9abdf019d0344e9554dd186f1a
+Refactorings at 64439c25a6aa5e285a6701d9d0ef8f8ba23d5529
+Refactorings at 6b84fea815778256f3e63b715cd06f02b69059b7
+Refactorings at 52ab4ee9c83ed1c4b8f181cfe3fcb002402b7342
+Refactorings at 8696c48942b0923fd798abc0f5841da6255cf782
+Refactorings at fe32c6dff6e362760b37698ef49164cdd5975168
+Refactorings at 0cd1df0621790be0ca8e2905d4c4a063317da1cb
+Refactorings at 5f579ffc97e9450c0b9c62a9f1e455b34ad11d51
+Refactorings at f8814d02c3388eeab1ce0453172b26a4f0607df7
+{
+	"type": "Extract Attribute",
+	"description": "Extract Attribute private HEX_FORMAT : String in class org.apache.commons.rng.core.source64.TwoCmres.Cmres",
+	"leftSideLocations": [],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-core/src/main/java/org/apache/commons/rng/core/source64/TwoCmres.java",
+		"startLine": 174,
+		"endLine": 174,
+		"startColumn": 37,
+		"endColumn": 60,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private HEX_FORMAT : String"
+}]
+}
+Refactorings at a787e0513c3befaf353521cea3d92d95ef595b76
+Refactorings at 4b34e779c1e721a56b39b1969ff84ce4a713aa6a
+Refactorings at 79db12a7dc9a3eff410a6735478b2a3a8761b737
+Refactorings at b01d0d1d4ce5b766172b1d7375a4319295e3ce45
+Refactorings at 1421751589282c1b32b67abbf97be1237225cc8a
+Refactorings at 9cc27a5a89e34de8b23b58241adbedb15f50abee
+Refactorings at 32ed8c65941ec9f23c75c2dc6edea850c1b61477
+Refactorings at 9d3bb19049ba2448203c3f9805de0c8a18c0f681
+Refactorings at 1b0e32ec0ead1816f9d15eccc6cc5ef3538fba44
+Refactorings at 410f2d4b7dd224d8e1a42ce12652fbc68f02814a
+Refactorings at ff02caea9c3280c2a54cdbc0c338d46648541413
+Refactorings at 048b98772bac852a61be237bd31f30b2a0321d44
+Refactorings at 9c731f8754355e6b594d9b6f74ce82de10b7411c
+Refactorings at 738c92f6a92a389acf910e90bf931d4e7c2f29d2
+Refactorings at e4ff0f98d3a435e221eb3b25225780807f4875c6
+Refactorings at f8f8649927b180c1fa2e0eb8a1c6bb9785bcdfdd
+Refactorings at cb5b18b8fb1a7a9dacbbf336ef587f0bcf6c77cd
+Refactorings at 8be40b80776ddcda05fe6208eb76bec921d79e70
+Refactorings at 467996009fc0329ba49042cd8750c3f1401de86e
+Refactorings at e41874fec264cb290035ceb8c966eeae14cc7152
+Refactorings at b89752b836ac259daeeace92b2dee47d56482ac2
+Refactorings at f33ea249b9c25759545c4b2f039de651ddef2c76
+Refactorings at ffe585f5b6d461bf4f4cc4a59b8b9344e7a5bd7e
+Refactorings at c519b506116fc33e6f99b9ff2c4246c8d730d4b9
+Refactorings at 294cf4c33506b8e4503100fec93ad1bbf532629e
+Refactorings at 44a704dce0dba5f0b47424de2254a7e239a54721
+Refactorings at b8635de20d8d219beae9c5918f2a86ca8f1ccf68
+Refactorings at 562a24f8429334a4b4807d178161b7a33da4ab60
+Refactorings at 8711cb9a66952d9aab31e14f1a8ed5eb323303dd
+Refactorings at a464b9b6dd97375a4c660cf4d2b431a16fe7c5e8
+Refactorings at 6a937e8f29a41025c78ca1f61d9d9400cb61d068
+Refactorings at b400ab3d96409352bdf692026c202a0937b9471a
+Refactorings at 1eb7ea49a3e86fe6128361ec36f1cc424f64e1d8
+Refactorings at 2b3915227bb80eeeff3b07faa8a433a469e98dd0
+Refactorings at 090ab546025731903c2a6e267e5c4a35c1a1782e
+Refactorings at b2c99eb42513dff42023fb756c60e06248789c44
+Refactorings at 8edbb4b1b90ff557554540be662d7e6f4daf2a84
+Refactorings at b9089a83a9e738c348a1dff8b769f17fdd8b7079
+Refactorings at aa0f3b4909b0cd3a22c4ba8f04646ef264cee9d9
+Refactorings at 919311f5b3ed7feb39a02d44f25d87fef654e8f1
+Refactorings at 7b4a41428c2bed270261b4fedd3a562adaee04b5
+{
+	"type": "Rename Attribute",
+	"description": "Rename Attribute exponential : ContinuousSampler to poissonSampler : DiscreteSampler in class org.apache.commons.rng.sampling.distribution.PoissonSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 37,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "exponential : ContinuousSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 35,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "renamed attribute declaration",
+		"codeElement": "poissonSampler : DiscreteSampler"
+}]
+}
+{
+	"type": "Change Attribute Type",
+	"description": "Change Attribute Type exponential : ContinuousSampler to poissonSampler : DiscreteSampler in class org.apache.commons.rng.sampling.distribution.PoissonSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 37,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "exponential : ContinuousSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 35,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "changed-type attribute declaration",
+		"codeElement": "poissonSampler : DiscreteSampler"
+}]
+}
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private exponential : ContinuousSampler from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private exponential : ContinuousSampler from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 47,
+		"endLine": 47,
+		"startColumn": 37,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private exponential : ContinuousSampler"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 50,
+		"endLine": 50,
+		"startColumn": 37,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "private exponential : ContinuousSampler"
+}]
+}
+{
+	"type": "Move Attribute",
+	"description": "Move Attribute private factorialLog : InternalUtils.FactorialLog from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private factorialLog : InternalUtils.FactorialLog from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 51,
+		"endLine": 51,
+		"startColumn": 46,
+		"endColumn": 58,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private factorialLog : InternalUtils.FactorialLog"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 46,
+		"endColumn": 58,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "moved attribute declaration",
+		"codeElement": "private factorialLog : InternalUtils.FactorialLog"
+}]
+}
+{
+	"type": "Move Method",
+	"description": "Move Method private factorialLog(n int) : double from class org.apache.commons.rng.sampling.distribution.PoissonSampler to private factorialLog(n int) : double from class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler",
+	"leftSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/PoissonSampler.java",
+		"startLine": 174,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private factorialLog(n int) : double"
+}],
+	"rightSideLocations": [{
+		"filePath": "commons-rng-sampling/src/main/java/org/apache/commons/rng/sampling/distribution/LargeMeanPoissonSampler.java",
+		"startLine": 168,
+		"endLine": 177,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "moved method declaration",
+		"codeElement": "private factorialLog(n int) : double"
+}]
+}
+Refactorings at 9704699b403f23939529e14b0560cabf00530d98
+Refactorings at 288c8b5196ab29e0e2ca50182a28f217e0828833
+Refactorings at f73546863611e5dd850fd311277f2019259489ce
+Refactorings at ae7a63acfb10aed653ec5d4ad2aef61a1263e3ba
+Refactorings at 96a380ee435d21656302526d23bb1e3f52bdb991
+Refactorings at 4644028f96cb6c5a18bd5bf5996ef0048c55a529
+Refactorings at edb3eed76e5a50ddce94dd5510f0c9d2f54be35a
+Refactorings at 2a31d8764facb77c8a3c301b0613078df8c93d13
+Refactorings at cc2dbe748fb2be6a3d58fb1429bf8bfadd53752d
+Refactorings at 73007170865c7e7ce4d86bbdb56e4bd34dd9ce6f
+Refactorings at a39895f1644105198bbc18a0dd4e1d3f5cc26f20
+Refactorings at 50b984b1d59d7c0a18dde8e6eb55a8036db1f876
+Refactorings at f8159f28a52197d0e7b55e39b115702147cf57a0
+Refactorings at e858b47a5101928ecd033e474801d1d72417283c
+Refactorings at 5a594279684f3e3fb9b086d985555815c51204b9
+Refactorings at 40fd7ad244b350d657ca4f1a9efe667c52697327

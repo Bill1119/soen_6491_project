@@ -1,0 +1,162 @@
+{
+    "db751b911b56fecff1bce1ce33320e4308158c6a": [
+        {
+            "commit": "db751b911b56fecff1bce1ce33320e4308158c6a",
+            "refactoring_type": "Extract Method",
+            "refactoring_mapping": "Extract Method\tpackage getLambdaRaw() : double extracted from package getLambda() : int in class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler.LargeMeanPoissonSamplerState",
+            "file": "LargeMeanPoissonSamplerState",
+            "location": "org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler.LargeMeanPoissonSamplerState",
+            "refactoring_instance": "db751b911b56fecff1bce1ce33320e4308158c6a;Extract Method;Extract Method\tpackage getLambdaRaw() : double extracted from package getLambda() : int in class org.apache.commons.rng.sampling.distribution.LargeMeanPoissonSampler.LargeMeanPoissonSamplerState"
+        }
+    ],
+    "65abc5dcfe4198b4244d4083d790ea870edbebe5": [
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.AbstractWell & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source32.AbstractWell & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.AbstractWell & moved to class org.apache.commons.rng.core.BaseProvider"
+        },
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.ISAACRandom & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source32.ISAACRandom & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.ISAACRandom & moved to class org.apache.commons.rng.core.BaseProvider"
+        },
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.KISSRandom & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source32.KISSRandom & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.KISSRandom & moved to class org.apache.commons.rng.core.BaseProvider"
+        },
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.MersenneTwister & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source32.MersenneTwister & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.MersenneTwister & moved to class org.apache.commons.rng.core.BaseProvider"
+        },
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.MultiplyWithCarry256 & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source32.MultiplyWithCarry256 & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source32.MultiplyWithCarry256 & moved to class org.apache.commons.rng.core.BaseProvider"
+        },
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.MersenneTwister64 & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source64.MersenneTwister64 & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.MersenneTwister64 & moved to class org.apache.commons.rng.core.BaseProvider"
+        },
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.SplitMix64 & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source64.SplitMix64 & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.SplitMix64 & moved to class org.apache.commons.rng.core.BaseProvider"
+        },
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.TwoCmres & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source64.TwoCmres & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.TwoCmres & moved to class org.apache.commons.rng.core.BaseProvider"
+        },
+        {
+            "commit": "65abc5dcfe4198b4244d4083d790ea870edbebe5",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.XorShift1024Star & moved to class org.apache.commons.rng.core.BaseProvider",
+            "file": "BaseProvider",
+            "location": "org.apache.commons.rng.core.source64.XorShift1024Star & moved to class org.apache.commons.rng.core.BaseProvider",
+            "refactoring_instance": "65abc5dcfe4198b4244d4083d790ea870edbebe5;Extract And Move Method;Extract And Move Method\tprotected splitStateInternal(state byte[], localStateLength int) : byte[][] extracted from protected setStateInternal(s byte[]) : void in class org.apache.commons.rng.core.source64.XorShift1024Star & moved to class org.apache.commons.rng.core.BaseProvider"
+        }
+    ],
+    "5ae875293e0591db9248992343f3c030ea43079f": [
+        {
+            "commit": "5ae875293e0591db9248992343f3c030ea43079f",
+            "refactoring_type": "Extract Method",
+            "refactoring_mapping": "Extract Method\tprivate swap(array int[], i int, j int) : void extracted from public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+            "file": "PermutationSampler",
+            "location": "org.apache.commons.rng.sampling.PermutationSampler",
+            "refactoring_instance": "5ae875293e0591db9248992343f3c030ea43079f;Extract Method;Extract Method\tprivate swap(array int[], i int, j int) : void extracted from public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void in class org.apache.commons.rng.sampling.PermutationSampler"
+        },
+        {
+            "commit": "5ae875293e0591db9248992343f3c030ea43079f",
+            "refactoring_type": "Parameterize Variable",
+            "refactoring_mapping": "Parameterize Variable\ttarget : int to i : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+            "file": "PermutationSampler",
+            "location": "org.apache.commons.rng.sampling.PermutationSampler",
+            "refactoring_instance": "5ae875293e0591db9248992343f3c030ea43079f;Parameterize Variable;Parameterize Variable\ttarget : int to i : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler"
+        },
+        {
+            "commit": "5ae875293e0591db9248992343f3c030ea43079f",
+            "refactoring_type": "Parameterize Variable",
+            "refactoring_mapping": "Parameterize Variable\ti : int to j : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+            "file": "PermutationSampler",
+            "location": "org.apache.commons.rng.sampling.PermutationSampler",
+            "refactoring_instance": "5ae875293e0591db9248992343f3c030ea43079f;Parameterize Variable;Parameterize Variable\ti : int to j : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler"
+        },
+        {
+            "commit": "5ae875293e0591db9248992343f3c030ea43079f",
+            "refactoring_type": "Extract Method",
+            "refactoring_mapping": "Extract Method\tprivate swap(array int[], i int, j int) : void extracted from public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+            "file": "PermutationSampler",
+            "location": "org.apache.commons.rng.sampling.PermutationSampler",
+            "refactoring_instance": "5ae875293e0591db9248992343f3c030ea43079f;Extract Method;Extract Method\tprivate swap(array int[], i int, j int) : void extracted from public shuffle(rng UniformRandomProvider, list int[], start int, towardHead boolean) : void in class org.apache.commons.rng.sampling.PermutationSampler"
+        },
+        {
+            "commit": "5ae875293e0591db9248992343f3c030ea43079f",
+            "refactoring_type": "Parameterize Variable",
+            "refactoring_mapping": "Parameterize Variable\ttarget : int to i : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+            "file": "PermutationSampler",
+            "location": "org.apache.commons.rng.sampling.PermutationSampler",
+            "refactoring_instance": "5ae875293e0591db9248992343f3c030ea43079f;Parameterize Variable;Parameterize Variable\ttarget : int to i : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler"
+        },
+        {
+            "commit": "5ae875293e0591db9248992343f3c030ea43079f",
+            "refactoring_type": "Parameterize Variable",
+            "refactoring_mapping": "Parameterize Variable\ti : int to j : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler",
+            "file": "PermutationSampler",
+            "location": "org.apache.commons.rng.sampling.PermutationSampler",
+            "refactoring_instance": "5ae875293e0591db9248992343f3c030ea43079f;Parameterize Variable;Parameterize Variable\ti : int to j : int in method private swap(array int[], i int, j int) : void in class org.apache.commons.rng.sampling.PermutationSampler"
+        }
+    ],
+    "42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae": [
+        {
+            "commit": "42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae",
+            "refactoring_type": "Extract Method",
+            "refactoring_mapping": "Extract Method\tprivate runSampleChiSquareTest(n int, k int, p int[][]) : void extracted from public testSampleChiSquareTest() : void in class org.apache.commons.rng.sampling.PermutationSamplerTest",
+            "file": "PermutationSamplerTest",
+            "location": "org.apache.commons.rng.sampling.PermutationSamplerTest",
+            "refactoring_instance": "42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae;Extract Method;Extract Method\tprivate runSampleChiSquareTest(n int, k int, p int[][]) : void extracted from public testSampleChiSquareTest() : void in class org.apache.commons.rng.sampling.PermutationSamplerTest"
+        },
+        {
+            "commit": "42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae",
+            "refactoring_type": "Move Method",
+            "refactoring_mapping": "Move Method\tprivate swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.CombinationSampler to package swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.SubsetSamplerUtils",
+            "file": "SubsetSamplerUtils",
+            "location": "Move Method\tprivate swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.CombinationSampler to package swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.SubsetSamplerUtils",
+            "refactoring_instance": "42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae;Move Method;Move Method\tprivate swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.CombinationSampler to package swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.SubsetSamplerUtils"
+        },
+        {
+            "commit": "42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae",
+            "refactoring_type": "Move Method",
+            "refactoring_mapping": "Move Method\tprivate swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.PermutationSampler to package swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.SubsetSamplerUtils",
+            "file": "SubsetSamplerUtils",
+            "location": "Move Method\tprivate swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.PermutationSampler to package swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.SubsetSamplerUtils",
+            "refactoring_instance": "42a2b5160a7d73bc7d4a0beae396ec0daa31c1ae;Move Method;Move Method\tprivate swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.PermutationSampler to package swap(array int[], i int, j int) : void from class org.apache.commons.rng.sampling.SubsetSamplerUtils"
+        }
+    ]
+}

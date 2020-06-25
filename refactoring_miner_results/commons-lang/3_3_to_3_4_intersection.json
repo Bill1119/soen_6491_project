@@ -1,0 +1,282 @@
+{
+    "b6e5ed05866242eb6c7c23a82d3b892d4461bb54": [
+        {
+            "commit": "b6e5ed05866242eb6c7c23a82d3b892d4461bb54",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\tvalues : long... to lvalues : long[] in method public processBitVectors(enumClass Class<E>, values long...) : EnumSet<E> in class org.apache.commons.lang3.EnumUtils",
+            "file": "EnumUtils",
+            "location": "org.apache.commons.lang3.EnumUtils",
+            "refactoring_instance": "b6e5ed05866242eb6c7c23a82d3b892d4461bb54;Change Variable Type;Change Variable Type\tvalues : long... to lvalues : long[] in method public processBitVectors(enumClass Class<E>, values long...) : EnumSet<E> in class org.apache.commons.lang3.EnumUtils"
+        }
+    ],
+    "cf4138d7bc1a892295ccd58ea8b42f7c8737239a": [
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tyears : int to years : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Parameter Type;Change Parameter Type\tyears : int to years : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tmonths : int to months : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Parameter Type;Change Parameter Type\tmonths : int to months : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tdays : int to days : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Parameter Type;Change Parameter Type\tdays : int to days : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\thours : int to hours : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Parameter Type;Change Parameter Type\thours : int to hours : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tminutes : int to minutes : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Parameter Type;Change Parameter Type\tminutes : int to minutes : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tseconds : int to seconds : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Parameter Type;Change Parameter Type\tseconds : int to seconds : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tmilliseconds : int to milliseconds : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Parameter Type;Change Parameter Type\tmilliseconds : int to milliseconds : long in method package format(tokens Token[], years long, months long, days long, hours long, minutes long, seconds long, milliseconds long, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\tdays : int to days : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Variable Type;Change Variable Type\tdays : int to days : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\thours : int to hours : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Variable Type;Change Variable Type\thours : int to hours : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\tminutes : int to minutes : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Variable Type;Change Variable Type\tminutes : int to minutes : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\tseconds : int to seconds : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Variable Type;Change Variable Type\tseconds : int to seconds : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        },
+        {
+            "commit": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\tmilliseconds : int to milliseconds : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils",
+            "file": "DurationFormatUtils",
+            "location": "org.apache.commons.lang3.time.DurationFormatUtils",
+            "refactoring_instance": "cf4138d7bc1a892295ccd58ea8b42f7c8737239a;Change Variable Type;Change Variable Type\tmilliseconds : int to milliseconds : long in method public formatDuration(durationMillis long, format String, padWithZeros boolean) : String in class org.apache.commons.lang3.time.DurationFormatUtils"
+        }
+    ],
+    "3ee44535b4c6d925ae21cf8dcbe6e85a72158a68": [
+        {
+            "commit": "3ee44535b4c6d925ae21cf8dcbe6e85a72158a68",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tunit : int to unit : TimeUnit in method private getFragment(date Date, fragment int, unit TimeUnit) : long in class org.apache.commons.lang3.time.DateUtils",
+            "file": "DateUtils",
+            "location": "org.apache.commons.lang3.time.DateUtils",
+            "refactoring_instance": "3ee44535b4c6d925ae21cf8dcbe6e85a72158a68;Change Parameter Type;Change Parameter Type\tunit : int to unit : TimeUnit in method private getFragment(date Date, fragment int, unit TimeUnit) : long in class org.apache.commons.lang3.time.DateUtils"
+        },
+        {
+            "commit": "3ee44535b4c6d925ae21cf8dcbe6e85a72158a68",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tunit : int to unit : TimeUnit in method private getFragment(calendar Calendar, fragment int, unit TimeUnit) : long in class org.apache.commons.lang3.time.DateUtils",
+            "file": "DateUtils",
+            "location": "org.apache.commons.lang3.time.DateUtils",
+            "refactoring_instance": "3ee44535b4c6d925ae21cf8dcbe6e85a72158a68;Change Parameter Type;Change Parameter Type\tunit : int to unit : TimeUnit in method private getFragment(calendar Calendar, fragment int, unit TimeUnit) : long in class org.apache.commons.lang3.time.DateUtils"
+        }
+    ],
+    "3efd6ccdbf1131b8d0b2677cbbdb41d7a23929f0": [
+        {
+            "commit": "3efd6ccdbf1131b8d0b2677cbbdb41d7a23929f0",
+            "refactoring_type": "Extract Attribute",
+            "refactoring_mapping": "Extract Attribute\tprivate NOT_FOUND : int in class org.apache.commons.lang3.CharSequenceUtils",
+            "file": "CharSequenceUtils",
+            "location": "org.apache.commons.lang3.CharSequenceUtils",
+            "refactoring_instance": "3efd6ccdbf1131b8d0b2677cbbdb41d7a23929f0;Extract Attribute;Extract Attribute\tprivate NOT_FOUND : int in class org.apache.commons.lang3.CharSequenceUtils"
+        }
+    ],
+    "d9bd12dc92dde003c0130a2a8405702191d55261": [
+        {
+            "commit": "d9bd12dc92dde003c0130a2a8405702191d55261",
+            "refactoring_type": "Rename Class",
+            "refactoring_mapping": "Rename Class\torg.apache.commons.lang3.time.FastDateParser.TextStrategy renamed to org.apache.commons.lang3.time.FastDateParser.CaseInsensitiveTextStrategy",
+            "file": "CaseInsensitiveTextStrategy",
+            "location": "Rename Class\torg.apache.commons.lang3.time.FastDateParser.TextStrategy renamed to org.apache.commons.lang3.time.FastDateParser.CaseInsensitiveTextStrategy",
+            "refactoring_instance": "d9bd12dc92dde003c0130a2a8405702191d55261;Rename Class;Rename Class\torg.apache.commons.lang3.time.FastDateParser.TextStrategy renamed to org.apache.commons.lang3.time.FastDateParser.CaseInsensitiveTextStrategy"
+        }
+    ],
+    "bc91bedd45c5f51175f8686332ed4c72fbe98652": [
+        {
+            "commit": "bc91bedd45c5f51175f8686332ed4c72fbe98652",
+            "refactoring_type": "Extract Attribute",
+            "refactoring_mapping": "Extract Attribute\tprivate DEFAULT_MULTIPLIER_VALUE : int in class org.apache.commons.lang3.builder.HashCodeBuilder",
+            "file": "HashCodeBuilder",
+            "location": "org.apache.commons.lang3.builder.HashCodeBuilder",
+            "refactoring_instance": "bc91bedd45c5f51175f8686332ed4c72fbe98652;Extract Attribute;Extract Attribute\tprivate DEFAULT_MULTIPLIER_VALUE : int in class org.apache.commons.lang3.builder.HashCodeBuilder"
+        },
+        {
+            "commit": "bc91bedd45c5f51175f8686332ed4c72fbe98652",
+            "refactoring_type": "Extract Attribute",
+            "refactoring_mapping": "Extract Attribute\tprivate DEFAULT_INITIAL_VALUE : int in class org.apache.commons.lang3.builder.HashCodeBuilder",
+            "file": "HashCodeBuilder",
+            "location": "org.apache.commons.lang3.builder.HashCodeBuilder",
+            "refactoring_instance": "bc91bedd45c5f51175f8686332ed4c72fbe98652;Extract Attribute;Extract Attribute\tprivate DEFAULT_INITIAL_VALUE : int in class org.apache.commons.lang3.builder.HashCodeBuilder"
+        }
+    ],
+    "52e854e3bda9f1b92471884888f430345f73eca2": [
+        {
+            "commit": "52e854e3bda9f1b92471884888f430345f73eca2",
+            "refactoring_type": "Change Parameter Type",
+            "refactoring_mapping": "Change Parameter Type\tmodType : int to modType : ModifyType in method private modify(val Calendar, field int, modType ModifyType) : void in class org.apache.commons.lang3.time.DateUtils",
+            "file": "DateUtils",
+            "location": "org.apache.commons.lang3.time.DateUtils",
+            "refactoring_instance": "52e854e3bda9f1b92471884888f430345f73eca2;Change Parameter Type;Change Parameter Type\tmodType : int to modType : ModifyType in method private modify(val Calendar, field int, modType ModifyType) : void in class org.apache.commons.lang3.time.DateUtils"
+        }
+    ],
+    "ef26a667633275fa656b74b841f9e74a3a6879ab": [
+        {
+            "commit": "ef26a667633275fa656b74b841f9e74a3a6879ab",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\toccurrences : HashMap<Byte,MutableInt> to occurrences : Map<Byte,MutableInt> in method public removeElements(array byte[], values byte...) : byte[] in class org.apache.commons.lang3.ArrayUtils",
+            "file": "ArrayUtils",
+            "location": "org.apache.commons.lang3.ArrayUtils",
+            "refactoring_instance": "ef26a667633275fa656b74b841f9e74a3a6879ab;Change Variable Type;Change Variable Type\toccurrences : HashMap<Byte,MutableInt> to occurrences : Map<Byte,MutableInt> in method public removeElements(array byte[], values byte...) : byte[] in class org.apache.commons.lang3.ArrayUtils"
+        }
+    ],
+    "1f75a8f7cc28fef663eaca75e831c9da11ea2b0e": [
+        {
+            "commit": "1f75a8f7cc28fef663eaca75e831c9da11ea2b0e",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\tc : char[] to c1 : char in method public translate(input CharSequence, out Writer) : void in class org.apache.commons.lang3.text.translate.CharSequenceTranslator",
+            "file": "CharSequenceTranslator",
+            "location": "org.apache.commons.lang3.text.translate.CharSequenceTranslator",
+            "refactoring_instance": "1f75a8f7cc28fef663eaca75e831c9da11ea2b0e;Change Variable Type;Change Variable Type\tc : char[] to c1 : char in method public translate(input CharSequence, out Writer) : void in class org.apache.commons.lang3.text.translate.CharSequenceTranslator"
+        }
+    ],
+    "bbfa8eb7df16baf17239b412ff7efa11c7e0926b": [
+        {
+            "commit": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.UnpaddedMonthField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "file": "FastDatePrinter",
+            "location": "org.apache.commons.lang3.time.FastDatePrinter.UnpaddedMonthField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "refactoring_instance": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b;Extract And Move Method;Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.UnpaddedMonthField & moved to class org.apache.commons.lang3.time.FastDatePrinter"
+        },
+        {
+            "commit": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.PaddedNumberField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "file": "FastDatePrinter",
+            "location": "org.apache.commons.lang3.time.FastDatePrinter.PaddedNumberField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "refactoring_instance": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b;Extract And Move Method;Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.PaddedNumberField & moved to class org.apache.commons.lang3.time.FastDatePrinter"
+        },
+        {
+            "commit": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.TwoDigitNumberField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "file": "FastDatePrinter",
+            "location": "org.apache.commons.lang3.time.FastDatePrinter.TwoDigitNumberField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "refactoring_instance": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b;Extract And Move Method;Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.TwoDigitNumberField & moved to class org.apache.commons.lang3.time.FastDatePrinter"
+        },
+        {
+            "commit": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.TwoDigitYearField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "file": "FastDatePrinter",
+            "location": "org.apache.commons.lang3.time.FastDatePrinter.TwoDigitYearField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "refactoring_instance": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b;Extract And Move Method;Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.TwoDigitYearField & moved to class org.apache.commons.lang3.time.FastDatePrinter"
+        },
+        {
+            "commit": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.TwoDigitMonthField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "file": "FastDatePrinter",
+            "location": "org.apache.commons.lang3.time.FastDatePrinter.TwoDigitMonthField & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "refactoring_instance": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b;Extract And Move Method;Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, value int) : void in class org.apache.commons.lang3.time.FastDatePrinter.TwoDigitMonthField & moved to class org.apache.commons.lang3.time.FastDatePrinter"
+        },
+        {
+            "commit": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b",
+            "refactoring_type": "Extract And Move Method",
+            "refactoring_mapping": "Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, calendar Calendar) : void in class org.apache.commons.lang3.time.FastDatePrinter.TimeZoneNumberRule & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "file": "FastDatePrinter",
+            "location": "org.apache.commons.lang3.time.FastDatePrinter.TimeZoneNumberRule & moved to class org.apache.commons.lang3.time.FastDatePrinter",
+            "refactoring_instance": "bbfa8eb7df16baf17239b412ff7efa11c7e0926b;Extract And Move Method;Extract And Move Method\tprivate appendDigits(buffer StringBuffer, value int) : void extracted from public appendTo(buffer StringBuffer, calendar Calendar) : void in class org.apache.commons.lang3.time.FastDatePrinter.TimeZoneNumberRule & moved to class org.apache.commons.lang3.time.FastDatePrinter"
+        }
+    ],
+    "2f62425c31dca0435c756e51289a5fc9dbaa5a94": [
+        {
+            "commit": "2f62425c31dca0435c756e51289a5fc9dbaa5a94",
+            "refactoring_type": "Change Attribute Type",
+            "refactoring_mapping": "Change Attribute Type\tlookupMap : HashMap<String,CharSequence> to lookupMap : HashMap<String,String> in class org.apache.commons.lang3.text.translate.LookupTranslator",
+            "file": "LookupTranslator",
+            "location": "org.apache.commons.lang3.text.translate.LookupTranslator",
+            "refactoring_instance": "2f62425c31dca0435c756e51289a5fc9dbaa5a94;Change Attribute Type;Change Attribute Type\tlookupMap : HashMap<String,CharSequence> to lookupMap : HashMap<String,String> in class org.apache.commons.lang3.text.translate.LookupTranslator"
+        },
+        {
+            "commit": "2f62425c31dca0435c756e51289a5fc9dbaa5a94",
+            "refactoring_type": "Change Variable Type",
+            "refactoring_mapping": "Change Variable Type\tresult : CharSequence to result : String in method public translate(input CharSequence, index int, out Writer) : int in class org.apache.commons.lang3.text.translate.LookupTranslator",
+            "file": "LookupTranslator",
+            "location": "org.apache.commons.lang3.text.translate.LookupTranslator",
+            "refactoring_instance": "2f62425c31dca0435c756e51289a5fc9dbaa5a94;Change Variable Type;Change Variable Type\tresult : CharSequence to result : String in method public translate(input CharSequence, index int, out Writer) : int in class org.apache.commons.lang3.text.translate.LookupTranslator"
+        }
+    ],
+    "dfaa656f02d6339119af17ff39b1c183d9dc3a7d": [
+        {
+            "commit": "dfaa656f02d6339119af17ff39b1c183d9dc3a7d",
+            "refactoring_type": "Inline Variable",
+            "refactoring_mapping": "Inline Variable\tanotherVal : double in method public compareTo(other MutableDouble) : int from class org.apache.commons.lang3.mutable.MutableDouble",
+            "file": "MutableDouble",
+            "location": "Inline Variable\tanotherVal : double in method public compareTo(other MutableDouble) : int from class org.apache.commons.lang3.mutable.MutableDouble",
+            "refactoring_instance": "dfaa656f02d6339119af17ff39b1c183d9dc3a7d;Inline Variable;Inline Variable\tanotherVal : double in method public compareTo(other MutableDouble) : int from class org.apache.commons.lang3.mutable.MutableDouble"
+        },
+        {
+            "commit": "dfaa656f02d6339119af17ff39b1c183d9dc3a7d",
+            "refactoring_type": "Inline Variable",
+            "refactoring_mapping": "Inline Variable\tanotherVal : float in method public compareTo(other MutableFloat) : int from class org.apache.commons.lang3.mutable.MutableFloat",
+            "file": "MutableFloat",
+            "location": "Inline Variable\tanotherVal : float in method public compareTo(other MutableFloat) : int from class org.apache.commons.lang3.mutable.MutableFloat",
+            "refactoring_instance": "dfaa656f02d6339119af17ff39b1c183d9dc3a7d;Inline Variable;Inline Variable\tanotherVal : float in method public compareTo(other MutableFloat) : int from class org.apache.commons.lang3.mutable.MutableFloat"
+        }
+    ]
+}
